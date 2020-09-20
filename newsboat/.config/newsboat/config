@@ -1,0 +1,45 @@
+# Macros
+# Note: macro prefix key ( default: , )
+macro o set browser "$BROWSERCLI %u"; open-in-browser ; set browser "$BROWSER %u"
+
+# copy url to clipboard "yank"
+# # xclip: https://www.youtube.com/watch?v=fKP0FLp3uW0
+macro y set browser "echo -n %u | xclip -selection clipboard"; open-in-browser ; set browser "$BROWSER %u"
+
+# add video or audio to play queue using mpv (requires: task-spooler, mpv, youtube-dl)
+#macro p set browser "tsp mpv --ontop --no-border --force-window --autofit=400x250 --geometry=-20-70 %u"; open-in-browser ; set browser "$BROWSER %u"
+macro p set browser "mpv --ontop --no-border --force-window --autofit=500x350 --geometry=-20-80 %u"; open-in-browser ; set browser "$BROWSER %u"
+#macro p set browser "vlc '%u'"; open-in-browser ; set browser "$BROWSER %u"
+
+
+# Vim-like bindings 
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key G end
+bind-key g home
+bind-key d pagedown
+bind-key u pageup
+bind-key l open
+bind-key h quit
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+bind-key D pb-download
+bind-key U show-urls
+bind-key x pb-delete
+
+#Colors
+color listnormal default default
+color listfocus green black standout bold
+color listnormal_unread green default
+color listfocus_unread yellow default bold
+color info cyan default bold
+color article default default
+
+#Podbeuter
+download-path "~/Music/Talks_And_Podcasts/%n"
+player "mocp"

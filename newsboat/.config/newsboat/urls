@@ -1,0 +1,70 @@
+# News
+http://www.gazetawroclawska.pl/rss/gazetawroclawska.xml "news" "wroc"
+
+# Linux and DevOps
+https://lukesmith.xyz/rss.xml "tech" "LS"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA%EF%BB%BF "yt" "linux" "~Luke Smith's YT"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg "yt" "linux" "~Wolfgang"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkf4VIqu3Acnfzuk3kRIFwA "yt" "linux" "~gotbletu"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCf93fPKwotph47H3_KDcRyg "yt" "linux" "~Kris Occhipinti"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0A3ldncnGQ1M_RU2Wb4L2A "yt" "linux" "secops" "~quidsup"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCZiL6BoryLWxyapUuVYW27g "yt" "linux" "~ALU"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmRlQIXsEllAym3BUk1joEQ "yt" "linux" "~Wesley"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3jSNmKWYA04R47fDcc1ImA "yt" "linux" "~IG"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA "devops" "linux" "yt" "~LLTV"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvA_wgsX6eFAOXI8Rbg_WiQ "devops" "yt" "linux" "~Dave C"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFFLP0dKesrKWccYscdAr9A "devops" "yt" "linux" "~UrbanPenguin"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFzGyNKXPAglNq28qWYTDFA "devops" "yt" "linux" "~Kai Hendry"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCk9NvmsPBC3lTn_L9kFaylA "yt" "BSD" "~iBSD"
+
+# openSuSE
+https://planet.opensuse.org/en/rss20.xml "opensuse" "linux" "~openSUSE planet"
+https://news.opensuse.org/feed "opensuse" "linux" "news" "~openSUSE news"
+https://review.tumbleweed.boombatower.com/feed.xml "opensuse"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfGYQhdYUehpxYPnfXPiGpg "yt" "opensuse" "~SUSE_Labs"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXPcicLBLCOpPEk-hC6yyzQ "yt" "opensuse" "~openSUSE YT"
+
+# Debian
+https://planet.debian.org/rss20.xml "debian" "linux" "~Debian Planet"
+
+# Vim
+https://feeds.feedburner.com/tpope "vim" "programming" "~Tim Pope's blog"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXPHFM88IlFn68OmLwtPmZA "yt" "vim" "~Greg Hurell"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw "yt" "vim" "~ThePrimeagen"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6fXiuFCWAnVPwRhBMztLlQ "yt" "vim" "~Leeren"
+
+# Education
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW6TXMZ5Pq6yL6_k5NZ2e0Q "programming" "learning" "math" "yt" "~Socratica"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "CS" "learning" "math" "yt" "~Computerphile"
+
+# Programming
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtxCXg-UvSnTKPOzLH4wJaQ "presentations" "programming" "yt" "~coding tech"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzn6vAfspIcagLax1fck_jw "Life style" "tech" "yt" "~Pasja Informatyki"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKTehwyGCKF-b2wo0RKwrcg "programming" "yt" "~Bisqwit"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ "python" "programming" "yt" "~sentdex"
+
+# Running
+https://www.youtube.com/feeds/videos.xml?channel_id=UCh_w_vLvlZNBeTAP8qaWhoA "running" "yt" "coach" "~Sage Canaday"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVptfwYcLxRED8w4Efy0CsA "running" "yt" "coach" "~Harry Jones"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCScHdYFS_KBduqkRBjbQNuA "running" "yt" "quality" "~Bily Yang"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSxqXJj9btSS3nrmBg8GXdQ "running" "yt" "quality" "~Ethan Newberry"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCgAYWS3ldZMhsBpXi6kn2Yw "running" "yt" "quality" "~Dan Whitehead"
+
+
+# Lifestyle 
+https://www.youtube.com/feeds/videos.xml?channel_id=UCono9ajboCd2xGkMeZfYFBA "Life style" "yt" "~Gents"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIQlTMu9467Rgo5tA58qtaA "Life style" "sport" "yt" "~Paweł"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ24N4O0bP7LGLBDvye7oCA "Life style" "podcasts" "yt" "~Matt D'Avella"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCQL5ABUvwY7YoW5lgMyAS_w "Life style" "yt" "~Wheezy"
+
+# Podcasts and talks
+http://notrelated.libsyn.com/rss "podcasts"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzZEwjZEnPFHlMQYIUaByAw "tech" "podcasts" "yt" "~TFiR youtube"
+
+# Quality content (various topics)
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRcgy6GzDeccI7dkbbBna3Q "yt" "quality" "~Lemmino"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJ7yzQTV9Yw6zwAaEIL5Jtg "yt" "quality" "food" "~Food Emperor"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCp45pfyCgkrx-chHkVcGChg "yt" "quality" "tea" "~Czajnikowy"
+
+#Other
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ "yt" "~LastWeekTonight YouTube"

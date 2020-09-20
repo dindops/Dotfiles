@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/pietad/Dotfiles/.vim'
 let g:netrw_dirhist_1='/home/piotr/.config/i3'
 let g:netrw_dirhist_0='/home/piotr/.config/awesome/awesome-wm-widgets/battery-widget'
 let g:netrw_dirhist_9='/home/piotr/.config/awesome/awesome-wm-widgets'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/piotr/.config/awesome/awesome-wm-widgets/batteryarc
 let g:netrw_dirhist_5='/run/media/sdl'
 let g:netrw_dirhist_4='/home/piotr/.config/awesome/themes/openSUSE'
 let g:netrw_dirhist_3='/etc/xdg/awesome'
-let g:netrw_dirhist_2='/home/piotr/.config/newsboat'

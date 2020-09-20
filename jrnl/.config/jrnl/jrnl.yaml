@@ -1,0 +1,16 @@
+default_hour: 20
+default_minute: 0
+editor: vim
+encrypt: true
+highlight: true
+indent_character: '|'
+journals:
+  default: /home/piotr/.config/jrnl/jrnls/thisjrnlomine.txt
+  project: 
+    journal: /home/piotr/.config/jrnl/jrnls/project_notes.txt
+    encrypt: false
+linewrap: 79
+tagsymbols: '@'
+template: false
+timeformat: '%Y-%m-%d %H:%M'
+version: v2.2

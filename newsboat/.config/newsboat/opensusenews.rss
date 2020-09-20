@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>openSUSE News</title>
+	<atom:link href="https://news.opensuse.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https://news.opensuse.org</link>
+	<description>The latest news from the openSUSE project</description>
+	<lastBuildDate>
+	Fri, 28 Jun 2019 08:00:06 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
+
+<image>
+	<url>https://news.opensuse.org/wp-content/uploads/2018/08/cropped-Button-colour-32x32.png</url>
+	<title>openSUSE News</title>
+	<link>https://news.opensuse.org</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>openSUSE.Asia Summit 2020: Call for Host</title>
+		<link>https://news.opensuse.org/2019/06/28/opensuse-asia-summit-2020-call-for-host/</link>
+				<comments>https://news.opensuse.org/2019/06/28/opensuse-asia-summit-2020-call-for-host/#respond</comments>
+				<pubDate>Fri, 28 Jun 2019 08:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Conference]]></category>
+		<category><![CDATA[Summit]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[2020]]></category>
+		<category><![CDATA[call for hosts]]></category>
+		<category><![CDATA[call for proposals]]></category>
+		<category><![CDATA[openSUSE.Asia Summit]]></category>
+		<category><![CDATA[summit]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21892</guid>
+				<description><![CDATA[The openSUSE.Asia Summit is the largest annual openSUSE conference in Asia, attended by contributors and enthusiasts from all over Asia. The event focuses primarily on the openSUSE distribution, its applications for personal and enterprise use, and open source culture. It brings together the openSUSE community in Asia, providing a forum for users, developers, foundation leaders, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignright size-medium wp-image-21893" src="https://news.opensuse.org/wp-content/uploads/2019/06/Screenshot-from-2019-06-28-09-58-35-300x109.png" alt="" width="300" height="109" srcset="https://news.opensuse.org/wp-content/uploads/2019/06/Screenshot-from-2019-06-28-09-58-35-300x109.png 300w, https://news.opensuse.org/wp-content/uploads/2019/06/Screenshot-from-2019-06-28-09-58-35.png 601w" sizes="(max-width: 300px) 100vw, 300px" />The openSUSE.Asia Summit is the largest annual openSUSE conference in Asia, attended by contributors and enthusiasts from all over Asia. The event focuses primarily on the openSUSE distribution, its applications for personal and enterprise use, and open source culture. It brings together the openSUSE community in Asia, providing a forum for users, developers, foundation leaders, governments and businesses to discuss the present technology and future developments.</p>
+<p>The Summit’s preference is to find new locations each year as we spread openSUSE throughout Asia, and we are looking for local organizers to rise to the challenge of organizing an excellent openSUSE event in 2020. We need individuals and communities to get together and organize a successful openSUSE.Asia Summit. The openSUSE.Asia organization committee assists throughout the process.</p>
+<h3><b>Proposals for openSUSE.Asia Summit 2020</b></h3>
+<p>For those of you who are interested in hosting the next openSUSE.Asia Summit, you are invited to submit a formal proposal to the openSUSE.Asia organization committee and join this year summit. The deadlines for the proposals are as the following:</p>
+<ul>
+<li>Aug. 1: Registration on the host candidates</li>
+<li>Sep. 28: Deadline of Submission of the proposals</li>
+<li>Oct. 5-6: Presentation at openSUSE.Asia Summit 2019</li>
+<li>Dec. 1: Announcement of the next host</li>
+</ul>
+<p><span id="more-21892"></span>The registration only requires the informal introduction of the organizers and the city or the country where the summit will take place. Without the registration, you cannot submit your proposal. Please send the introduction and your proposal to both <a href="https://lists.opensuse.org/opensuse-summit/">opensuse-summit@opensuse.org</a> and <a href="mailto:opensuseasia-summit@googlegroups.com">opensuseasia-summit@googlegroups.com</a>.</p>
+<p>We will invite you to our regular online meetings so that you can understand how the summit is organized. Furthermore, we are going to ask you to show your proposals at the next summit in Bali, Indonesia.</p>
+<p>The submitted proposals are to be reviewed by the organization committee, and one from them is to be selected by vote. The committee might have additional questions and requests during the review.</p>
+<p>More information including former summits, the organization committee, and our annual roadmap until the next summit is available at the Asia Summit Portal: <a href="https://en.opensuse.org/Portal:Asia_Summit">https://en.opensuse.org/Portal:Asia_Summit</a></p>
+<h3><b>Things to be Written in Your Proposals</b></h3>
+<p>The conference will require the availability of facilities for around a weekend, during the latter half of 2020. Final event dates should avoid other major free software conferences or other events that may have a conflict (e.g., Open Source Summit Europe) and will be confirmed together with other openSUSE teams who might get involved.</p>
+<p>Key points proposals should consider, and what will be taken into account when deciding among candidates, are:</p>
+<ol>
+<li>Introduction
+<ul>
+<li>Your country, city, etc.</li>
+<li>Local openSUSE community (e.g., local events, online community)</li>
+</ul>
+</li>
+<li>Objectives</li>
+<li>Local organizers
+<ul>
+<li>Proposed local organizing committee
+<ul>
+<li>Local openSUSE advocates, developers, users, etc.</li>
+<li>People from the local FLOSS community or university</li>
+</ul>
+</li>
+<li>Proposed supporting organizations</li>
+</ul>
+</li>
+<li>Expected dates</li>
+<li>Venue
+<ul>
+<li>Rooms</li>
+<li>Local and international travel information
+<ul>
+<li>Flight, access from hotels</li>
+<li>Visa</li>
+</ul>
+</li>
+<li>Food and accommodation</li>
+</ul>
+</li>
+</ol>
+<p>&nbsp;</p>
+<ol>
+<li>Milestones until the summit
+<ul>
+<li>The expected periods of the following events
+<ul>
+<li>Call for proposals</li>
+<li>Call for volunteers</li>
+<li>Call for the summit logo (optional)</li>
+<li>Call for sponsors</li>
+</ul>
+</li>
+<li>See also: <a href="https://en.opensuse.org/openSUSE:Asia_Summit_Annual_Roadmaps">https://en.opensuse.org/openSUSE:Asia_Summit_Annual_Roadmaps</a></li>
+</ul>
+</li>
+<li>Activities and schedule
+<ul>
+<li>Registration</li>
+<li>Hack-fest (This is an option)</li>
+<li>Conference</li>
+<li>Keynote</li>
+<li>Dinner and party</li>
+</ul>
+</li>
+<li>Expected attendees and marketing</li>
+<li>Budget Estimation
+<ul>
+<li>Conference Venue</li>
+<li>Marketing materials（T-shirts，banner，badge，posters, etc.）</li>
+<li>Tea break, Lunch, Dinner</li>
+<li>Travel subsidy and accommodation</li>
+<li>Miscellaneous（Think about 10% uplift to have more buffer）</li>
+</ul>
+</li>
+<li>Potential sponsors &amp; media partners</li>
+<li>Conclusion</li>
+</ol>
+<p>Feel free to contact <a href="mailto:opensuse-summit@opensuse.org">opensuse-summit@opensuse.org</a> if you have any questions. If this excites you enough, but you are still not sure, we should talk and see if we can solve your doubts. Please help to spread the words and we are looking forward to hearing from you soon!</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/06/28/opensuse-asia-summit-2020-call-for-host/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>New node.js LTS, GNU Debugger, libvirt Updates Arrive in Tumbleweed Snapshots</title>
+		<link>https://news.opensuse.org/2019/06/13/new-node-js-lts-gnu-debugger-libvirt-updates-arrive-in-tumbleweed-snapshots/</link>
+				<comments>https://news.opensuse.org/2019/06/13/new-node-js-lts-gnu-debugger-libvirt-updates-arrive-in-tumbleweed-snapshots/#comments</comments>
+				<pubDate>Thu, 13 Jun 2019 08:35:45 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Tumbleweed]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[ARM]]></category>
+		<category><![CDATA[bluetooth]]></category>
+		<category><![CDATA[btrfs]]></category>
+		<category><![CDATA[bug fixes]]></category>
+		<category><![CDATA[cmake 3.14]]></category>
+		<category><![CDATA[Desktop]]></category>
+		<category><![CDATA[drivers]]></category>
+		<category><![CDATA[embedded]]></category>
+		<category><![CDATA[gdb 8.3]]></category>
+		<category><![CDATA[GNU Debugger]]></category>
+		<category><![CDATA[ice lake]]></category>
+		<category><![CDATA[intel]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[Kernel 5.1.7]]></category>
+		<category><![CDATA[libical]]></category>
+		<category><![CDATA[libinput]]></category>
+		<category><![CDATA[libstorage-ng]]></category>
+		<category><![CDATA[libuv]]></category>
+		<category><![CDATA[libvirt 5.4.0]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[LLVM 8]]></category>
+		<category><![CDATA[LVM]]></category>
+		<category><![CDATA[MD]]></category>
+		<category><![CDATA[nodejs]]></category>
+		<category><![CDATA[openssl]]></category>
+		<category><![CDATA[openSUSE Tumbleweed]]></category>
+		<category><![CDATA[Plasma 5.16]]></category>
+		<category><![CDATA[Power8]]></category>
+		<category><![CDATA[ppc]]></category>
+		<category><![CDATA[ppc64le]]></category>
+		<category><![CDATA[Qt 5.13]]></category>
+		<category><![CDATA[reviewer]]></category>
+		<category><![CDATA[riscv64]]></category>
+		<category><![CDATA[swig 4.0]]></category>
+		<category><![CDATA[vim]]></category>
+		<category><![CDATA[Wacom]]></category>
+		<category><![CDATA[x86]]></category>
+		<category><![CDATA[xfce]]></category>
+		<category><![CDATA[xfdesktop]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21889</guid>
+				<description><![CDATA[The three openSUSE Tumbleweed snapshots released this week updated some key packages for users of the rolling release. One of those key packages was an update of the GNU Debugger, gdb 8.3, which was released in the 20190607 snapshot. The debugger enabled ada tests on ppc64le and riscv64; multitarget builds for riscv64 were also enabled. [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignright size-medium wp-image-20101" src="https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon-213x300.png" alt="" width="213" height="300" srcset="https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon-213x300.png 213w, https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon-768x1082.png 768w, https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon-727x1024.png 727w, https://news.opensuse.org/wp-content/uploads/2016/09/vector-chameleon.png 1185w" sizes="(max-width: 213px) 100vw, 213px" />The three <a href="https://www.opensuse.org/">openSUSE</a> <a href="https://en.opensuse.org/Portal:Tumbleweed">Tumbleweed</a> snapshots released this week updated some key packages for users of the rolling release.</p>
+<p>One of those key packages was an update of the <a href="https://www.gnu.org/s/gdb/">GNU Debugger</a>, gdb 8.3, which was released in the <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00115.html">20190607</a> snapshot. The debugger enabled ada tests on <a href="https://en.wikipedia.org/wiki/Ppc64">ppc64le</a> and <a href="https://en.wikipedia.org/wiki/RISC-V">riscv64</a>; multitarget builds for <a href="https://en.wikipedia.org/wiki/RISC-V">riscv64</a> were also enabled. The snapshot also added unit test for <a href="https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)">Logical Volume Manager</a> (LVM) over Modular Disk (MD) with the update of libstorage-ng 4.1.127. Several patches and bug fixes were applied with the update of <a href="https://libvirt.org/news.html">libvirt 5.4.0</a>, which also made an improvement to avoided unnecessary static linking that results in both the disk and memory footprint being reduced. Libvirt also introduced support for the md-clear <a href="https://en.wikipedia.org/wiki/CPUID">CPUID</a> bit. The python-libvirt-python 5.4.0 package added all new Application Programming Interfaces (APIs) and constants in <a href="https://libvirt.org/news.html">libvirt 5.4.0</a>. Text editor <a href="https://www.vim.org/">vim</a> 8.1.1467 had multiple fixes, but the Tumbleweed snapshot introduced some new bugs and is currently trending at an 86 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+<p>The two previous snapshots recorded an exceptional stable rating of 98 according to the <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+<p>Snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00104.html">20190606</a> updated just two packages. The <a href="https://nodejs.org/">nodejs10</a> package put out a new upstream Long-Term-Support (LTS) version with <a href="https://nodejs.org/">nodejs10</a> 10.16.0, which upgraded upgrade <a href="https://www.openssl.org/">openssl</a> sources to 1.1.1b and <a href="https://github.com/libuv/libuv">libuv</a> to 1.28.0. The other package update in the snapshot was <a href="https://linux.die.net/man/1/xfdesktop">xfdesktop</a> 4.12.5; the package for the <a href="https://www.xfce.org/">Xfce</a> 4 Desktop Environment fixed icon sizes in settings, reset the desktop icon order and fixed a <a href="https://bugzilla.xfce.org/show_bug.cgi?id=13887">timer leak</a>.</p>
+<p>The <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00096.html">20190605</a> snapshot had three packages updated. <a href="https://www.kernel.org/">Linux Kernel</a> 5.1.7 had some fixes pertaining to <a href="https://en.wikipedia.org/wiki/Btrfs">Btrfs</a> like fixing the in-core state with a storage device between ranged <a href="https://linux.die.net/man/2/fsync">fsync</a> and writeback of adjacent ranges. The kernel update also removed dependencies with the arch_timer driver internals for the <a href="https://www.arm.com/">arm</a> architecture and added <a href="https://en.wikipedia.org/wiki/Ice_Lake_(microarchitecture)">Ice Lake</a> support for <a href="https://www.intel.com">Intel</a>’s <a href="https://en.wikipedia.org/wiki/X86">x86</a> power mode or c-state. Time Zones were updated with the libical 3.0.5 package and the <a href="https://www.freedesktop.org/wiki/Software/libinput/">libinput</a> 1.13.2 package made some changes for <a href="https://www.wacom.com/">Wacom</a> touchpads and <a href="https://www.apple.com/">Apple</a> <a href="https://www.bluetooth.com/">bluetooth</a> touchpad.</p>
+<p>Release manager Dominique Leuenberger wrote a <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00105.html">review of the previous two weeks</a> and stated that <a href="https://www.openssl.org/">openssl</a> 1.1.1c, <a href="https://en.wikipedia.org/wiki/TeX_Live">Texlive</a> 2019, <a href="https://kde.org/">KDE</a> Plasma 5.16, <a href="https://blog.qt.io/">Qt 5.13</a>, <a href="https://releases.llvm.org/8.0.0/docs/ReleaseNotes.html">LLVM 8</a>, <a href="https://github.com/swig/swig/wiki/SWIG-4.0-Development">swig 4.0</a>, and <a href="https://cmake.org/cmake/help/v3.14/release/3.14.html">cmake 3.14</a> were all progressing in the staging projects and will be released soon in upcoming Tumbleweed snapshots.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/06/13/new-node-js-lts-gnu-debugger-libvirt-updates-arrive-in-tumbleweed-snapshots/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+		<item>
+		<title>People of openSUSE: Stasiek Michalski</title>
+		<link>https://news.opensuse.org/2019/06/07/people-of-opensuse-stasiek-michalski/</link>
+				<comments>https://news.opensuse.org/2019/06/07/people-of-opensuse-stasiek-michalski/#comments</comments>
+				<pubDate>Fri, 07 Jun 2019 10:47:02 +0000</pubDate>
+		<dc:creator><![CDATA[Imad Aldoj]]></dc:creator>
+				<category><![CDATA[People of openSUSE]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21883</guid>
+				<description><![CDATA[Introduction I&#8217;m LCP, or Stasiek if you can pronounce that. Just a 20 years old guy from Poland who spends way too much time in front of computers. That&#8217;s how all my potted plants end up dead. My Journey I’ve been using computers for as long as I can remember, playing Solitaire, The Settlers, and [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h4><span style="color: #73ba25;">Introduction</span></h4>
+<p>I&#8217;m LCP, or Stasiek if you can pronounce that. Just a 20 years old guy from Poland who spends way too much time in front of computers. That&#8217;s how all my potted plants end up dead.</p>
+<h4><span style="color: #73ba25;"><img class="alignright wp-image-21885 " src="https://news.opensuse.org/wp-content/uploads/2019/06/lcp-300x261.png" alt="" width="239" height="208" srcset="https://news.opensuse.org/wp-content/uploads/2019/06/lcp-300x261.png 300w, https://news.opensuse.org/wp-content/uploads/2019/06/lcp-768x669.png 768w, https://news.opensuse.org/wp-content/uploads/2019/06/lcp.png 846w" sizes="(max-width: 239px) 100vw, 239px" />My Journey</span></h4>
+<p>I’ve been using computers for as long as I can remember, playing Solitaire, The Settlers, and other simple DOS games, because that&#8217;s what my parents and grandma liked to play. I started with Win95, 98, and 2000, before learning about Linux.</p>
+<p>My interest in design was sparked by the original iPhone icons, which I loved. In contrast with my hatred toward the Faenza icon theme, both have fairly similar style yet widely different results. That’s how I began exploring and learned from there.</p>
+<p>Correspondingly, my Linux journey started back in 2007 when my dad showed me Ubuntu, and just like what I did with Windows 2000 before, my pastime became installing and reinstalling Linux alongside Windows in different configurations (I apparently was consumed by the concept of installation and configuration, which might explain my YaST obsession?).</p>
+<p>Later in 2010, I had a tough time with a machine that wouldn&#8217;t take any distro with the exception of openSUSE (although it did end up with a few Linuxrc errors). Besides, I really liked its GNOME 2 config back then; it was really user friendly yet powerful. I gave KDE a shot but to this day I never really liked it.</p>
+<h4><span style="color: #73ba25;">Contributing, how it all started&#8230;</span></h4>
+<p>My first contribution was because of my consistent and annoying complaining to Richard Brown on Linux Gaming Discord about the sorrow state of artwork in Tumbleweed. I didn&#8217;t like anything there. I, it seemed too dark, too boring; stuff was barely visible due to contrast issues. He pointed me to contribute and make it better then, so I did. Around the same time me and some of other people from Linux Gaming Discord created the openSUSE Discord, and I reused some assets from the Discord to create the new branding.</p>
+<p>Even though my main focus has been artwork, I also take part in some coding, translations, and obviously testing. I enjoy all of it in general. It is a great way to make computing easier and more pleasant for other less experienced users.</p>
+<p>Actually, to me, my most valuable contribution has been encouraging people to use openSUSE and contribute to it, while doing my best to help them out when needed. Otherwise, I wouldn&#8217;t have been able to provide anything on my own because I rely on community to actively help me out with their judgment; just as I do help them out with mine.</p>
+<h4><span style="color: #73ba25;">Side projects</span></h4>
+<p>Outside of openSUSE I also work on Pixelfed, some Discord distros collaboration (artwork for Fedora and Gentoo discords on top of openSUSE one) and more recently been working on User Interface (UI) design for SuperTuxKart and some custom tiles for OpenSkyscraper in order to replace injecting the EXE file (but gamedev is hard, you know).</p>
+<h4><span style="color: #73ba25;">One thing that needs more attention in openSUSE?</span></h4>
+<p>Libyui-gtk needs more attention. It&#8217;s a library that was originally developed for YaST then got dropped, but Manatools still heavily depends on it. Any contribution to the development is encouraged and will help bring it back home.</p>
+<h4><span style="color: #73ba25;">Gaming</span></h4>
+<p>I don&#8217;t play as often as I used to because I&#8217;m busy contributing, but I love Minecraft, The Settlers 2 and Solitaire Spider, which its terminal version was my very first open source software project.</p>
+<h4><span style="color: #73ba25;">Something I can talk about for hours</span></h4>
+<p>Recently, it&#8217;s been radio buttons. The design we use in UIs doesn&#8217;t make much sense compared to the real life equivalent, as opposed to basically every other form element. But at the same time we can&#8217;t do much about it&#8230; now that people got used to this one. Plus, I don&#8217;t see a proper replacement.</p>
+<h4><span style="color: #73ba25;">A lie about myself</span></h4>
+<p>I like dogs.</p>
+<h4><span style="color: #73ba25;">I’d like to add</span></h4>
+<p>Please contribute to https://github.com/openSUSE/branding/issues/93, every voice matters!</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/06/07/people-of-opensuse-stasiek-michalski/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+							</item>
+		<item>
+		<title>Mesa, VirtualBox, Ceph, NetworkManager Packages Update in Tumbleweed</title>
+		<link>https://news.opensuse.org/2019/06/06/mesa-virtualbox-ceph-networkmanager-packages-update-in-tumbleweed/</link>
+				<comments>https://news.opensuse.org/2019/06/06/mesa-virtualbox-ceph-networkmanager-packages-update-in-tumbleweed/#comments</comments>
+				<pubDate>Thu, 06 Jun 2019 09:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Tumbleweed]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[bublewrap]]></category>
+		<category><![CDATA[ceph]]></category>
+		<category><![CDATA[continous integration]]></category>
+		<category><![CDATA[curl]]></category>
+		<category><![CDATA[CVE]]></category>
+		<category><![CDATA[fixes]]></category>
+		<category><![CDATA[gegl]]></category>
+		<category><![CDATA[ghashtable]]></category>
+		<category><![CDATA[GlibC]]></category>
+		<category><![CDATA[GNOME]]></category>
+		<category><![CDATA[GNOME 3.32]]></category>
+		<category><![CDATA[jsom]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[LTO]]></category>
+		<category><![CDATA[malloc]]></category>
+		<category><![CDATA[meson build]]></category>
+		<category><![CDATA[networkmanager]]></category>
+		<category><![CDATA[openSUSE Tumbleweed]]></category>
+		<category><![CDATA[php 7]]></category>
+		<category><![CDATA[reviwer]]></category>
+		<category><![CDATA[snapshot]]></category>
+		<category><![CDATA[virtualbox]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21879</guid>
+				<description><![CDATA[Three openSUSE Tumbleweed snapshots have been released in the first four days of June, which bring several minor package updates to the rolling release. The 20190604 snapshot brought babl  0.1.64, which provided some code consistency, gitlab Continuous Integration (CI), autotools and meson build improvements. An accident in naming caused the 0.3.2 version of bubblewrap to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignright wp-image-20433 size-medium" src="https://news.opensuse.org/wp-content/uploads/2017/06/geekoshirt-212x300.png" alt="" width="212" height="300" srcset="https://news.opensuse.org/wp-content/uploads/2017/06/geekoshirt-212x300.png 212w, https://news.opensuse.org/wp-content/uploads/2017/06/geekoshirt-768x1086.png 768w, https://news.opensuse.org/wp-content/uploads/2017/06/geekoshirt-724x1024.png 724w, https://news.opensuse.org/wp-content/uploads/2017/06/geekoshirt.png 794w" sizes="(max-width: 212px) 100vw, 212px" />Three <a href="https://www.opensuse.org/">openSUSE</a> <a href="https://en.opensuse.org/Portal:Tumbleweed">Tumbleweed</a> snapshots have been released in the first four days of June, which bring several minor package updates to the rolling release.</p>
+<p>The <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00087.html">20190604</a> snapshot brought babl  0.1.64, which provided some code consistency, <a href="https://gitlab.com">gitlab</a> <a href="https://en.wikipedia.org/wiki/Continuous_integration">Continuous Integration</a> (CI), autotools and <a href="https://mesonbuild.com/">meson build</a> improvements. An accident in naming caused the 0.3.2 version of bubblewrap to become version 0.3.3. However, bubblewrap 0.3.3. did address a Common Vulnerabilities and Exposures (CVE), provided a few smaller fixes and added the JSON Application Programming Interface (API) that allows reading the inner process exit code. <a href="https://gcc.gnu.org/">GNU Compiler Collection</a> 8 had some updates that included a couple patches with one that makes builds without profiling reproducible. Generic Graphics Library <a href="http://gegl.org/">gegl</a> 0.4.16 also added gitlab CI and uses a custom allocator for tile data, which aligns data and groups allocations in blocks; this was achieved on <a href="https://www.linux.org/">Linux </a>by using the GNU extension malloc_trim to permit forcing invocation of the <a href="https://www.gnu.org/s/libc/">glibc</a> <a href="https://en.cppreference.com/w/c/memory/malloc">malloc</a>/free allocators garbage collection function. Oracle’ <a href="https://www.virtualbox.org/">virtualbox</a> 6.0.8 had a minor maintenance release that fixed a crash when powering off a Virtual Machine without a graphics controller and xorg-x11-server 1.20.5 fixed some input. The snapshot is currently trending at a 96 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+<p>Snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00078.html">20190603</a> updated <a href="https://www.mesa3d.org/">Mesa</a> and <a href="https://www.mesa3d.org/">Mesa-drivers</a> to version 19.0.5 and took care of some core code and drivers. <a href="https://en.wikipedia.org/wiki/NetworkManager">NetworkManager</a> 1.16.2 fixed some wrong permissions of the /var/lib/NetworkManager/secret_key file. <a href="https://ceph.com/">Ceph</a>’s minor version update disabled <a href="https://stackoverflow.com/questions/23736507/is-there-a-reason-why-not-to-use-link-time-optimization-lto">Link Time Optimisation</a> in spec when being used. <a href="https://www.gnome.org/news/2019/03/gnome-3-32-released/">GNOME 3.32.2</a> had several package updates and fixes including the fix of a regression that caused the fonts category to go missing. Tumbleweed skipped over the 1.3.0 series of <a href="https://flatpak.org/">Flatpak</a> directly to version 1.4.0. The major changes since 1.2.4 is the improved I/O use for system-installed applications, and the new format for pre-configured remotes. <a href="https://developer.gnome.org/glib/">Glib2</a> 2.60.3 updated translations and provided various fixes to small key/value support in <a href="https://developer.gnome.org/glib/stable/glib-Hash-Tables.html">GHashTable</a>. Scripting language <a href="https://www.php.net/ChangeLog-7.php#7.3.6">php7 7.3.6</a> added a missing <a href="https://www.php.net/curl_version">curl_version</a> and fixed several other bugs. The snapshot is currently trending at a 95 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+<p>The snapshot that started out the month, <a href="https://lists.opensuse.org/opensuse-factory/2019-06/msg00022.html">20190601</a>, update the <a href="https://www.kernel.org/">Linux Kernel</a> to 5.1.5 that fixed a <a href="https://www.phoronix.com/scan.php?page=news_item&amp;px=Linux-5.1.5-Released">data loss bug</a>. <a href="https://github.com/flatpak/flatpak-builder">Flatpak-builder</a> 1.0.7 fixed some details in how to create platform commits to fix font cache mtime issues. Among the other package updates in the snapshot were GNOME’s image viewer <a href="https://wiki.gnome.org/Apps/Gthumb">gthumb</a> 3.8.0, ibus-libpinyin 1.11.1, libopenmpt 0.4.5, <a href="https://qalculate.github.io/manual/index.html">qalculate 3.2.0</a>, <a href="https://www.rdesktop.org/">rdesktop 1.8.6</a>, which fixed the protocol code handling new licenses, and yast2-support 4.1.1. The snapshot is currently trending at a 90 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/06/06/mesa-virtualbox-ceph-networkmanager-packages-update-in-tumbleweed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>openSUSE Community Releases Leap 15.1 Version</title>
+		<link>https://news.opensuse.org/2019/05/22/opensuse-community-releases-leap-15-1-version/</link>
+				<comments>https://news.opensuse.org/2019/05/22/opensuse-community-releases-leap-15-1-version/#comments</comments>
+				<pubDate>Wed, 22 May 2019 12:32:02 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Kubic]]></category>
+		<category><![CDATA[Leap]]></category>
+		<category><![CDATA[Project]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[applications]]></category>
+		<category><![CDATA[arm64]]></category>
+		<category><![CDATA[backports]]></category>
+		<category><![CDATA[CAS]]></category>
+		<category><![CDATA[CEO]]></category>
+		<category><![CDATA[chipset]]></category>
+		<category><![CDATA[community]]></category>
+		<category><![CDATA[dhcp]]></category>
+		<category><![CDATA[EMMC]]></category>
+		<category><![CDATA[Firewalld]]></category>
+		<category><![CDATA[frameworks]]></category>
+		<category><![CDATA[fun GNOME]]></category>
+		<category><![CDATA[GNU GPU]]></category>
+		<category><![CDATA[graphics]]></category>
+		<category><![CDATA[HPC intel]]></category>
+		<category><![CDATA[SUSE Linux Enterprise]]></category>
+		<category><![CDATA[SUSEConnect]]></category>
+		<category><![CDATA[sysadmins]]></category>
+		<category><![CDATA[TUXEDOComputers]]></category>
+		<category><![CDATA[UI]]></category>
+		<category><![CDATA[Vega]]></category>
+		<category><![CDATA[VM]]></category>
+		<category><![CDATA[x86]]></category>
+		<category><![CDATA[xfce]]></category>
+		<category><![CDATA[yast]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21870</guid>
+				<description><![CDATA[Leap 15.1 Supports More Hardware, Drivers, Enhances Installation EN / CA / DE / FR / IT / ES / JA / NL / PL / ZH / ZH-TW 22/05/2019 NUREMBERG, Germany &#8211; Today&#8217;s release of the openSUSE Leap 15.1 brings professional users, entrepreneurs and Independent Software Vendors updated support for modern hardware. The release of [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h3><img class="aligncenter wp-image-21814" src="https://news.opensuse.org/wp-content/uploads/2019/05/Leap15.1Branding.jpeg" alt="" width="620" height="349" srcset="https://news.opensuse.org/wp-content/uploads/2019/05/Leap15.1Branding.jpeg 1920w, https://news.opensuse.org/wp-content/uploads/2019/05/Leap15.1Branding-300x169.jpeg 300w, https://news.opensuse.org/wp-content/uploads/2019/05/Leap15.1Branding-768x432.jpeg 768w, https://news.opensuse.org/wp-content/uploads/2019/05/Leap15.1Branding-1024x576.jpeg 1024w" sizes="(max-width: 620px) 100vw, 620px" /></h3>
+<h3>Leap 15.1 Supports More Hardware, Drivers, Enhances Installation</h3>
+<p><strong class="selflink">EN</strong> / <a class="external text" href="https://en.opensuse.org/Release_announcement_15.1_ca" rel="nofollow">CA</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="de:Release-Ankündigung 15.1" href="http://de.opensuse.org/Release-Ank%C3%BCndigung_15.1">DE</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="https://fr.opensuse.org/Annonce_de_publication_15.1"> / FR / </a><a class="extiw" title="it:Annuncio di rilascio 15.1" href="http://it.opensuse.org/Annuncio_di_rilascio_15.1">IT</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="es:Anuncio publicación 15.1" href="http://es.opensuse.org/Anuncio_publicaci%C3%B3n_15.1">ES</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="ja:リリースアナウンス 15.1" href="http://ja.opensuse.org/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9_15.1">JA</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="nl:Release Aankondiging 15.1" href="http://nl.opensuse.org/Release_Aankondiging_15.1">NL</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="pl:Release announcement 15.1" href="http://pl.opensuse.org/Release_announcement_15.1">PL</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="zh:发行公告 15.1" href="http://zh.opensuse.org/%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A_15.1">ZH</a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1"> / </a><a class="extiw" title="zh-tw:Release announcement 15.1" href="http://zh-tw.opensuse.org/Release_announcement_15.1">ZH-TW</a></p>
+<p>22/05/2019</p>
+<p><strong> NUREMBERG, Germany </strong>&#8211; Today&#8217;s release of the openSUSE Leap 15.1 brings professional users, entrepreneurs and Independent Software Vendors updated support for modern hardware.</p>
+<p>The release of Leap 15.1 improves YaST functionality and the installer.</p>
+<p>&#8220;Continuity and stability are what we are providing users with Leap 15.1,&#8221; said Haris Sehic, a member of the openSUSE community. &#8220;With Leap 15, we have introduced a huge number of new features and innovations in security, performance and tool/desktop area. Having in mind how stable, efficient and reliable Leap has become, with this release, we managed to keep the level of quality to the point that our private and Small Business users can, actually more than ever, profit from the enterprise background of an openSUSE Linux Distribution. Let&#8217;s continue to have a lot of fun!&#8221;</p>
+<p>Leap releases are scalable and both the desktop and server are equally important for professional’s workloads, which is reflected in the installation menu as well as the amount of packages Leap offers and hardware it supports. Leap is well suited and prepared for usage as a Virtual Machine (VM) or container guest, allowing professional users to efficiently run network services no matter whether it’s a single server or a data center.</p>
+<p>Professional users, system administrators and developers can have confidence in the reliability of the Leap distribution based on its development process to deliver a modern, secure, maintained and highly tested distribution using the open-source build system unique to both SUSE and openSUSE, which is the Open Build Service, along with the automated testing of openQA.</p>
+<h4><span id="What.E2.80.99s_New" class="mw-headline">What’s New</span></h4>
+<p>An entirely new graphics stack update is available for this stable community- and enterprise-based open-source GNU/Linux distribution. Graphics hardware supported by the 4.19 Linux Kernel were backported for the release of Leap 15.1, which uses the 4.12 Linux Kernel and supports additional graphics drivers for Graphics Processing Unit (GPU) and improved support for AMD Vega chipset.</p>
+<p>GPU virtualization has become quite popular among vendors like AMD, Intel and Nvidia and Leap 15.1 helps to delivers these implementation and support solutions for virtualized and cloud environments.</p>
+<p>Leap 15.1 will now use Network Manager by default for both laptops and desktops &#8211; previously only laptops defaulted to Network Manager. Server installations will continue to default to Wicked, the openSUSE advanced network configuration system. The release adds a few popular WiFi drivers for more modern wireless chipsets. A change that applies to both Wicked and Network Manager is that /etc/resolv.conf, yp.conf and some other files are a link to a file in /run and are managed by netconfig.</p>
+<p>The management of system services in YaST has been revamped to take advantage of many of the features offered by systemd in that area.</p>
+<h4><span id="Improved_Setup_and_Configuration" class="mw-headline">Improved Setup and Configuration</span></h4>
+<p><img class="alignright size-full wp-image-21743" src="https://news.opensuse.org/wp-content/uploads/2019/02/1yast.png" alt="" width="181" height="181" srcset="https://news.opensuse.org/wp-content/uploads/2019/02/1yast.png 181w, https://news.opensuse.org/wp-content/uploads/2019/02/1yast-150x150.png 150w" sizes="(max-width: 181px) 100vw, 181px" />Some of the improvements to YaST have made for better management of services. Firewalld can be managed in text mode. There is a new User Interface to manage Firewalld, including AutoYaST support/advancements. System administrators will have better control with Salt formulas in the yast2-configuration-management module, and management of SSH keys per user will make sysadmins tasks much more pleasant.</p>
+<p>YaST comes with an improved Partitioner, that now can automatically format full disks without partition tables, create software MD RAIDs on top of full disks, create partitions within a software-defined MD RAID and many other combinations. AutoYaST also supports all these combinations. The work the YaST team has put into the setup and configuration tool has a better default partitioning proposal in several scenarios like those with small disks or systems with several disks making solutions easier for Linux professionals. Leap 15.1 brings new YaST icons developed by the community.</p>
+<p>The YaST team worked hard on improving the 4k display (HiDPI) experience. HiDPI displays are now autodetected and the UI is auto-scaled giving the installer a beautifully crisp interface.</p>
+<h4><span id="Security_and_Maintenance" class="mw-headline">Security and Maintenance</span></h4>
+<p><span id="more-21870"></span></p>
+<p>Maintenance updates from both Leap 15 and updates from SUSE Linux Enterprise 15 are inherited into Leap 15.1 and are part of the release. The security team issues fast updates for Leap 15.1. With maintenance updates, about 10 to 20 percent are contributed from the community.</p>
+<p>There is a YaST testing option for users to test maintenance updates before being released. The testing repository allows users to test the updates five days before being pushed to the maintenance update repository.</p>
+<p>Minor versions of the Leap 15 series have about an 18-month life cycle of maintenance and security as minor releases come roughly once a year. Users of openSUSE Leap, 15.0, which was released on May 25, 2018, should upgrade to Leap 15.1 within the next 6 months. The 15 series of Leap is expected to achieve an estimated 36 months of maintenance and security updates.</p>
+<h4><span id="Images.2C_Deployment_and_Hardware_with_Linode.2C_Slimbooks_and_Tuxedo" class="mw-headline">Images, Deployment and Hardware with Linode, Slimbooks and Tuxedo</span></h4>
+<p>Leap 15.1 continues to add more hardware providers as Slimbook and TUXEDO Computers will both offer the option of purchasing hardware with Leap 15.1 preinstalled. Linode cloud images of Leap are available today and ready for all infrastructure needs.</p>
+<p>TUXEDO Computers devices were an important part of the openSUSE reference tests of Leap 15.1.</p>
+<p>&#8220;We share the fundamental belief that the user should have the best user experience we can offer,&#8221; said Herbert Feiler, CEO of TUXEDO Computers. &#8220;openSUSE Leap 15.1 is the consistent continuation and further development of stable Linux for end users. Therefore we of course continue to offer openSUSE pre-installed on all TUXEDO notebooks and PCs,&#8221; adds Feiler.</p>
+<p>Cloud hosting services will offer images of Leap 15.1 in the coming weeks like Amazon Web Services, Azure and OpenStack. Leap 15 is continually optimized for cloud usage scenarios as a host and virtualization guest.</p>
+<h4><span id="Desktop_Environment" class="mw-headline">Desktop Environment</span></h4>
+<p>Leap offers a great variety of Linux desktops, including traditional KDE, GNOME as well as efficient Xfce. Users can select their preferred desktop environment, configuration and workflow. GNOME 3.26 and the Long-Term-Support version of KDE Plasma 5.12 are in both Leap 15.0 and Leap 15.1. SLE 15 enterprise users can also get the KDE version and other community tools and packages available through <a class="external text" href="https://packagehub.suse.com/" rel="nofollow">PackageHub</a>. Live images of KDE and GNOME are available for simple test-driving through the live tab under the Leap distribution on software.opensuse.org; a Rescue Live image is also available on the <a class="external text" href="https://download.opensuse.org/distribution/leap/15.1/live/" rel="nofollow">Live Images</a> page for those mentioned above.</p>
+<h4><span id="Containers" class="mw-headline">Containers</span></h4>
+<p>Leap 15.1 is filled with several containerization technologies like Singularity, which bring containers and reproducibility to scientific computing and the high-performance computing (HPC) world. Singularity first appeared in the Leap distribution in Leap 42.3 and provides functionality to build smallest minimal containers and runs the containers as single application environments. This is also the first Leap release containing the Podman container runtime and Buildah build tool; the used by default in openSUSE Kubic. Collectively they provide a more lightweight and resilient alternative to the alternative Docker container runtime, while also adding a number of unique features.</p>
+<h4><span id="Gamers_and_Designers" class="mw-headline">Gamers and Designers</span></h4>
+<p>Web designers and digital marketers can make use of the newer graphics stack with the minor version update of the Mesa 3d Graphic Library and use open source tools like the 3D Creation Software Blender to create intriguing and captivating animations.</p>
+<p>Gamers, music lovers and podcaster can enjoy the enhancements of the High Definition HD-audio, backported USB-audio drivers and software updates that were made for MultiMedia Card (MMC) and embedded MMC (eMMC).</p>
+<h4><span id="Migration_to_Enterprise_made_easy" class="mw-headline">Migration to Enterprise made easy</span></h4>
+<p>openSUSE Leap 15.1 brings plenty of community packages built on top of a core sources of SUSE Linux Enterprise (SLE) 15 SP1. The shared common core and alignment with SLE makes migrations to SUSE’s enterprise product easy for professional who want to extend the life cycle of their maintenance and security past the lifecycle of Leap. Migrating from the community version of Leap to SUSE Linux Enterprise is an available option for those who desire to migrate. The migration from openSUSE Leap server installations to SUSE Linux Enterprise is easy for system integrators developing on Leap code who may decide to move to an enterprise version for SLAs, certification, mass deployment, or extended Long Term Support. The instructions on how to do this using the SUSEConnect package and SUSE documentation can be found <a class="external text" href="https://www.suse.com/documentation/sles-15/book_sle_upgrade/data/sec_upgrade-online_opensuse_to_sle.html" rel="nofollow">here</a>.</p>
+<h4><span id="All_Standard_and_Some_Existing_Services_for_Networks" class="mw-headline">All Standard and Some Existing Services for Networks</span></h4>
+<p>Like prior versions, System Administrators and small businesses can use Leap for hosting web and mail servers or for network management with DHCP, DNS, NTP, Samba, NFS, LDAP, and hundreds of other services.</p>
+<p>File sharing and cloud services include software such as <a class="external text" href="https://nextcloud.com/" rel="nofollow">NextCloud</a> and even the groupware application suite <a class="external text" href="https://kopano.com/" rel="nofollow">Kopano</a> (formerly known as Zarafa) is part of the official Leap 15.1 repositories.</p>
+<p>Leap 15.1 also introduces automatically configured SSH for both it’s “Server” and “Transactional Server” system roles by default, helping make things a little easier to work on your server immediately after installation.</p>
+<h4><span id="Health_and_Science" class="mw-headline">Health and Science</span></h4>
+<p>The Leap distribution supports the health, science, research and developer communities. GNU Health, the award-winning health- and hospital management system, comes in version 3.4.x, which introduces the Federation Server, gnuhealth-thalamus. There is an added setup-script for GNU Health called openSUSE-gnuhealth-setup to ease the setup of a new system for less experienced users. Solve linear and nonlinear problems numerically and perform other numerical experiments using a language that is mostly compatible with MATLAB through GNU Octave or use the Free and Open Source Geographic Information System <a class="external text" href="https://www.qgis.org/" rel="nofollow">QGIS</a> to create, edit, visualize, analyze and publish geospatial information. Leap has plenty more packages like the Computer Algebra System (CAS) for problems in field theory called Cadabra, the interactive physical simulator Step, and the periodic table package Kalzium.</p>
+<h4><span id="Platforms" class="mw-headline">Platforms</span></h4>
+<p>Leap works with X86_64 and deployment scenarios can be run for physical, virtual, host and guest, and cloud. Ports to other architectures like <a class="external text" href="https://en.wikipedia.org/wiki/ARM_architecture" rel="nofollow">ARM64</a> and <a class="external text" href="https://en.wikipedia.org/wiki/Power_Architecture" rel="nofollow">POWER</a> are in the works by the community.</p>
+<p>The installation of openSUSE for the Raspberry Pi for ARM64 has been simplified to one image and is customizable. openSUSE Leap 15.1 is the first multi-purpose operating systems to support a full standard Linux experience in Raspberry Pi. There is no need for a custom specific ISO or precooked image to install on the Raspberry PI. The standard unmodified openSUSE image can be installed just like on any other computer. The installer detects and proposes the set of default configurations. Raspberry Pi needs a very specific partition containing the system firmware. This is important for the installer to detect the specific partition, preserve it and mount it in /boot/vc to allow the operating system to perform updates of the firmware.</p>
+<h4><span id="Download_Leap_15.1" class="mw-headline">Download Leap 15.1</span></h4>
+<p>To download the ISO image, visit <a class="external free" href="https://software.opensuse.org/distributions/leap" rel="nofollow">https://software.opensuse.org/distributions/leap</a></p>
+<h4><span id="Questions" class="mw-headline">Questions</span></h4>
+<p>If you have a question about the release or think you may have found a bug, ask on one of the following :</p>
+<ul>
+<li><a class="external free" href="https://t.me/openSUSE_group" rel="nofollow">https://t.me/openSUSE_group</a></li>
+<li><a class="external free" href="https://lists.opensuse.org/opensuse-support/" rel="nofollow">https://lists.opensuse.org/opensuse-support/</a></li>
+<li><a class="external free" href="https://discordapp.com/invite/openSUSE" rel="nofollow">https://discordapp.com/invite/openSUSE</a></li>
+</ul>
+<h4><span id="Get_involved" class="mw-headline">Get involved</span></h4>
+<p>If you would like to help the openSUSE Project, take a look at the list of ways you can participate at: <a class="external free" href="https://rootco.de/2016-04-03-opensuse-and-you/" rel="nofollow">https://rootco.de/2016-04-03-opensuse-and-you/</a></p>
+<p>The openSUSE Project is a worldwide community that promotes the use of Linux everywhere. It creates two of the world’s best Linux distributions, the Tumbleweed rolling-release, and Leap, the hybrid enterprise-community distribution. openSUSE is continuously working together in an open, transparent and friendly manner as part of the worldwide Free and Open Source Software community. The project is controlled by its community and relies on the contributions of individuals, working as testers, writers, translators, usability experts, artists and ambassadors or developers. The project embraces a wide variety of technology, people with different levels of expertise, speaking different languages and having different cultural backgrounds. Learn more about it on <a href="http://opensuse.org">opensuse.org</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/05/22/opensuse-community-releases-leap-15-1-version/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+							</item>
+		<item>
+		<title>Stable Sailing For Tumbleweed Snapshots This Week</title>
+		<link>https://news.opensuse.org/2019/05/16/stable-sailing-for-tumbleweed-snapshots-this-week/</link>
+				<comments>https://news.opensuse.org/2019/05/16/stable-sailing-for-tumbleweed-snapshots-this-week/#comments</comments>
+				<pubDate>Thu, 16 May 2019 09:03:29 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Tumbleweed]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[api]]></category>
+		<category><![CDATA[Ark]]></category>
+		<category><![CDATA[ARM]]></category>
+		<category><![CDATA[armv8]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Dolphin]]></category>
+		<category><![CDATA[ElasticSearch]]></category>
+		<category><![CDATA[exo]]></category>
+		<category><![CDATA[Firefox 66.0.5]]></category>
+		<category><![CDATA[GNOME 3.32.2]]></category>
+		<category><![CDATA[GNU Compiler Collection 9]]></category>
+		<category><![CDATA[http/2]]></category>
+		<category><![CDATA[IPv6]]></category>
+		<category><![CDATA[KDE Applications 19.04.1]]></category>
+		<category><![CDATA[KDE Plasma 5.15.5]]></category>
+		<category><![CDATA[Kdenlive]]></category>
+		<category><![CDATA[Kontact]]></category>
+		<category><![CDATA[LDAP]]></category>
+		<category><![CDATA[libosinfo]]></category>
+		<category><![CDATA[libressl]]></category>
+		<category><![CDATA[libvirt 5.3.0]]></category>
+		<category><![CDATA[linux kernel]]></category>
+		<category><![CDATA[MIPS]]></category>
+		<category><![CDATA[nghttp2]]></category>
+		<category><![CDATA[openSUSE Leap 15.1]]></category>
+		<category><![CDATA[openSUSE Tumbleweed]]></category>
+		<category><![CDATA[OsinfoImages]]></category>
+		<category><![CDATA[powerpc]]></category>
+		<category><![CDATA[QEMU 4.0]]></category>
+		<category><![CDATA[RISC-V]]></category>
+		<category><![CDATA[s390]]></category>
+		<category><![CDATA[snapshot reviewer]]></category>
+		<category><![CDATA[Spectacle]]></category>
+		<category><![CDATA[squid 4.7]]></category>
+		<category><![CDATA[Umbrello]]></category>
+		<category><![CDATA[Wireshark 3.0.1]]></category>
+		<category><![CDATA[x86]]></category>
+		<category><![CDATA[xfce]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21810</guid>
+				<description><![CDATA[Developers Can Make Use of GCC 9, QEMU 4, Wireshark 3 This week produced a smooth and rapid release of stable openSUSE Tumbleweed snapshot as the rolling release produced a total of five stable or trending stable snapshots, according to the Tumbleweed snapshot reviewer. The production of snapshots provided both large and small package updates [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h4><b>Developers Can Make Use of GCC 9, QEMU 4, Wireshark 3</b></h4>
+<p><img class="size-medium wp-image-21305 alignright" src="https://news.opensuse.org/wp-content/uploads/2018/10/gekko-300x276.png" alt="" width="300" height="276" srcset="https://news.opensuse.org/wp-content/uploads/2018/10/gekko-300x276.png 300w, https://news.opensuse.org/wp-content/uploads/2018/10/gekko-768x705.png 768w, https://news.opensuse.org/wp-content/uploads/2018/10/gekko-1024x940.png 1024w" sizes="(max-width: 300px) 100vw, 300px" />This week produced a smooth and rapid release of stable <a href="https://www.opensuse.org/">openSUSE</a> <a href="https://en.opensuse.org/Portal:Tumbleweed">Tumbleweed</a> snapshot as the rolling release produced a total of five stable or trending stable snapshots, according to the <a href="http://review.tumbleweed.boombatower.com/">Tumbleweed snapshot reviewer</a>.</p>
+<p>The production of snapshots provided both large and small package updates with <a href="https://gcc.gnu.org/">GNU Compiler Collection</a> 9, <a href="https://www.wireshark.org/docs/relnotes/wireshark-3.0.1.html">Wireshark 3.0.1</a>, <a href="https://www.qemu.org/2019/04/24/qemu-4-0-0/">QEMU 4.0</a>, <a href="https://kde.org/announcements/announce-applications-19.04.0.php">KDE Applications 19.04.1</a>, <a href="https://www.gnome.org/news/2019/03/gnome-3-32-released/">GNOME 3.32.2</a> and <a href="https://kde.org/announcements/plasma-5.15.5.php">KDE Plasma 5.15.5</a> rounding out the largest package updates this week.</p>
+<p>The latest Tumbleweed snapshot, <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00140.html">20190514</a>, hailed in twenty recorded bug fixes for <a href="https://kde.org/announcements/announce-applications-19.04.0.php">KDE Applications 19.04.1</a>, which include improvements to <a href="https://kontact.kde.org/">Kontact</a>, <a href="https://kde.org/applications/utilities/ark/">Ark</a>, <a href="https://edu.kde.org/cantor/">Cantor</a>, <a href="https://kde.org/applications/system/dolphin/">Dolphin</a>, <a href="https://kdenlive.org/en/">Kdenlive</a>, <a href="https://kde.org/applications/graphics/spectacle">Spectacle</a> and <a href="https://umbrello.kde.org/">Umbrello</a>. Among the highlighted fixes were a crash in KMail&#8217;s text sharing plugin that was fixed and regressions in the video editor Kdenlive were corrected. The <a href="https://www.alsa-project.org/wiki/Main_Page">Advanced Linux Sound Architecture</a> (alsa) <a href="https://www.alsa-project.org/wiki/Changes_v1.1.8_v1.1.9">1.1.9</a> dropped several patches and fixed a rate plugin for comparisons as well as added support for <a href="https://gcc.gnu.org/onlinedocs/gccint/LTO.html">GCC’s LinkTimeOptimization</a>. The <a href="https://www.videolan.org/vlc/index.html">VLC</a> audio visual decoder package <a href="https://code.videolan.org/videolan/dav1d/blob/0.3.1/NEWS">dav1d 0.3.1</a> provided <a href="https://www.arm.com/">arm</a> optimization for Multiple Sequence Alignment Compressor (MSAC). The package that has the implementation of<a href="https://tools.ietf.org/html/rfc7540"> HTTP/2</a> and its header compression algorithm<a href="https://tools.ietf.org/html/rfc7541"> HPACK</a> in C, <a href="https://nghttp2.org/">nghttp2</a>, fixed a compilation against modern <a href="https://www.libressl.org/">LibreSSL</a> in the <a href="https://github.com/nghttp2/nghttp2/releases/tag/v1.38.0">1.38.0</a> version update. <a href="https://github.com/tcsh-org/tcsh/blob/master/Announce-6.21.00">Tcsh 6.21.00</a> ported patches and the 4.2.15 version of yast2-storage-ng worked on the partitioner to prevent edition of block devices that are part of a multi-device Btrfs. The snapshot is currently trending at a 96 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">Tumbleweed snapshot reviewer</a>.</p>
+<p><span id="more-21810"></span>There were three packages updated in snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00131.html">20190512</a>. Mozilla <a href="https://www.mozilla.org/en-US/firefox/66.0.5/releasenotes/">Firefox 66.0.5</a> made further improvements to<a href="https://blog.mozilla.org/addons/2019/05/04/update-regarding-add-ons-in-firefox/"> re-enable web extensions</a> that had been disabled for users with a master password. The operating system information database <a href="https://libosinfo.org/">libosinfo</a> 1.5.0 fixed the the loading of the architecture value of OsinfoImages and added  Application Programming Interface (API) to set and get an OS from and to OsinfoTrees &amp; OsinfoImages and osinfo-db 20190504 dropped an add support patch for <a href="https://en.opensuse.org/Portal:15.1">Leap 15.1</a>. The snapshot is currently trending at a 97 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">Tumbleweed snapshot reviewer</a>.</p>
+<p>Snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00123.html">20190510</a> reined in GCC 9 and is the first Tumbleweed snapshot to make use of the GCC9 libraries. The snapshot produced several other major version updates. Both <a href="https://www.wireshark.org/docs/relnotes/wireshark-3.0.1.html">Wireshark 3.0.1</a> and <a href="https://www.qemu.org/2019/04/24/qemu-4-0-0/">QEMU 4.0</a> were included in the snapshot. <a href="https://www.qemu.org/2019/04/24/qemu-4-0-0/">QEMU 4.0</a> had tons of new improvements for <a href="https://www.arm.com/">arm</a>, <a href="https://en.wikipedia.org/wiki/PowerPC">PowerPC</a>, <a href="https://en.wikipedia.org/wiki/MIPS_architecture">MIPS</a>, <a href="https://en.wikipedia.org/wiki/IBM_System/390">s390</a>, <a href="https://en.wikipedia.org/wiki/X86">x86</a> and <a href="https://riscv.org/">RISC-V</a>. One of the more noteworthy changes were <a href="https://en.wikichip.org/wiki/arm/armv8">ARMv8</a> extensions for SB, PredInv, HPD, LOR, FHM, AA32HPD, PAuth, JSConv, CondM, FRINT, and BTI. <a href="https://www.wireshark.org/docs/relnotes/wireshark-3.0.1.html">Wireshark 3.0.1</a> added the  IP map feature back in a modernized form and addressed several <a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">Common Vulnerabilities and Exposures</a>. Also, TShark now supports the -G elastic-mapping option which generates an <a href="https://www.elastic.co/">ElasticSearch</a> mapping file. <a href="https://www.gnome.org/news/2019/03/gnome-3-32-released/">GNOME 3.32.2</a> updated translations, fixed a crash when closing the updates dialog before the content has loaded, and gnome-maps updated some unnecessary instructions in turn-by-turn route searches. <a href="https://en.wikipedia.org/wiki/IPv6">IPv6 </a>had a few fixes with the update of the 5.0.13 <a href="https://www.kernel.org/">Linux Kernel</a>. Add support for setting the emulator scheduler parameters were made for QEMU with <a href="https://libvirt.org/news.html">libvirt 5.3.0</a> and python-libvirt-python 5.3.0 added all new APIs and constants in libvirt 5.3.0. With all these major updates, the snapshot is remarkably still trending at a 96 rating on the <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+<p><a href="https://kde.org/announcements/plasma-5.15.5.php">KDE Plasma 5.15.5</a> came out just two days after the software was released from upstream in the <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00100.html">20190509</a> snapshot. The Breeze theme had fix build with Qt 4 and Plasma addons fixed a default visibility unit for non-metric locales. The support library used in the <a href="https://www.xfce.org/">Xfce desktop</a> exo 0.12.5 moved around components to align with the correct library versions. Scripting language <a href="https://www.php.net/ChangeLog-7.php#7.3.5">php7 7.3.5</a> fixed a core dump when using server controls for Lightweight Directory Access Protocol (LDAP). The snapshot posted stable 94 rating on <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+<p>The snapshot that started off the week, <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00090.html">20190508</a>, has four packages update. The packages were perl-libwww-perl 6.39, plasma-browser-integration 5.15.5, squid 4.7 and xdg-desktop-portal-kde 5.15.5. <a href="http://www.squid-cache.org/">Squid 4.7</a> listed a bunch of CVEs that were fixed either without properly referencing them during the fix or 4.x branch was never affected by them. It also fixed stack-based buffer-overflow when parsing <a href="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol">Simple Network Management Protocol</a> (SNMP) messages. The snapshot posted stable 97 rating on <a href="http://review.tumbleweed.boombatower.com/">snapshot reviewer</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/05/16/stable-sailing-for-tumbleweed-snapshots-this-week/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+		<item>
+		<title>InfinityBook Pro 13 as an important part of the openSUSE reference tests</title>
+		<link>https://news.opensuse.org/2019/05/15/infinitybook-pro-13-as-an-important-part-of-the-opensuse-reference-tests/</link>
+				<comments>https://news.opensuse.org/2019/05/15/infinitybook-pro-13-as-an-important-part-of-the-opensuse-reference-tests/#comments</comments>
+				<pubDate>Wed, 15 May 2019 07:18:43 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Leap]]></category>
+		<category><![CDATA[Tumbleweed]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[benchmarks]]></category>
+		<category><![CDATA[configuration]]></category>
+		<category><![CDATA[InfinityBook Pro 13]]></category>
+		<category><![CDATA[Leap 15.1]]></category>
+		<category><![CDATA[opensuse]]></category>
+		<category><![CDATA[openSUSE Conference]]></category>
+		<category><![CDATA[TUXEDOComputers]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21805</guid>
+				<description><![CDATA[openSUSE and TUXEDO Computers want to offer the best user experience KÖNIGSBRUNN, Germany &#8212; The cooperation between TUXEDO Computers and the openSUSE project has existed since 2018. This has been very successful, so that the release team of openSUSE has received a permanent loan from TUXEDO Computers and has developed and further developed the new [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h4><img class="aligncenter wp-image-21806" src="https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-15-09-10-06.png" alt="" width="638" height="344" srcset="https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-15-09-10-06.png 843w, https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-15-09-10-06-300x162.png 300w, https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-15-09-10-06-768x415.png 768w" sizes="(max-width: 638px) 100vw, 638px" /></h4>
+<h4>openSUSE and TUXEDO Computers want to offer the best user experience</h4>
+<p><strong>KÖNIGSBRUNN, Germany &#8212;</strong> The cooperation between <a href="https://www.tuxedocomputers.com/">TUXEDO Computers</a> and the <a href="https://www.opensuse.org/">openSUSE</a> project has existed since 2018. This has been very successful, so that the release team of openSUSE has received a permanent loan from TUXEDO Computers and has developed and further developed the new version <a href="https://software.opensuse.org/distributions/leap/15_1">Leap 15.1</a> on the InfinityBook Pro 13, which will be released soon.</p>
+<p>The openSUSE project mainly uses the InfinityBook Pro 13 from the TUXEDO Computers range. It offers numerous configuration options and is characterized by its mobility, runtime, performance, quality and flexibility. The internal tests at openSUSE were consistently positive. <a href="https://cloud.tuxedo.de/index.php/s/6H3NbEfs5T5wFkT">Further information and benchmarks can be found in the current joint success story, which is available for download.</a></p>
+<h4>TUXEDO Computers at the openSUSE Conference 2019</h4>
+<p><img class="alignnone" src="https://www.tuxedocomputers.com/store_files/1/images/content/News_2019/2019-05-14_opensuse_conf.png" alt="24th to 26th of May 2019: openSUSE Conference 2019 in Nuremberg/Germany" width="250" height="250" /></p>
+<p>From 24th to 26th of May 2019, TUXEDO Computers will be part of the openSUSE Conference 2019 in Nuremberg/Germany. There, the hardware manufacturer from Königsbrunn near Augsburg/Germany will present a selection of current devices. The laptops can be viewed and tested here. Via the TUXEDO Computers online shop, more than 20 devices can be configured according to individual requirements and equipped, for example, with the Linux distribution openSUSE. The openSUSE conference in May is the annual openSUSE community event that brings people from all over the world together. Organized lectures, workshops and BoF sessions provide a setting for more informal meetings and hack sessions.</p>
+<p>Further information and ticket can be found here: <a href="https://events.opensuse.org/conferences/oSC19">https://events.opensuse.org/conferences/oSC19</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/05/15/infinitybook-pro-13-as-an-important-part-of-the-opensuse-reference-tests/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+							</item>
+		<item>
+		<title>openSUSE.Asia Summit 2019 Logo Competition</title>
+		<link>https://news.opensuse.org/2019/05/15/opensuse-asia-summit-2019-logo-competition/</link>
+				<comments>https://news.opensuse.org/2019/05/15/opensuse-asia-summit-2019-logo-competition/#comments</comments>
+				<pubDate>Wed, 15 May 2019 00:00:54 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Conference]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Summit]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[branding]]></category>
+		<category><![CDATA[CC-BY-SA 4.0]]></category>
+		<category><![CDATA[committee]]></category>
+		<category><![CDATA[deadline]]></category>
+		<category><![CDATA[Geeko]]></category>
+		<category><![CDATA[Logo Competition]]></category>
+		<category><![CDATA[openSUSE.Asia Summit]]></category>
+		<category><![CDATA[svg]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21799</guid>
+				<description><![CDATA[Today, we will start a logo competition for openSUSE.Asia Summit 2019, which is going to be held in Bali, Indonesia. A logo is an essential material for the successful summit. As you have seen, the former openSUSE.Asia summits have their unique logos reflecting the communities where the summit took place. Following tradition, we have logo [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignright size-medium wp-image-21800" style="margin: 10px;" src="https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-25-59-300x300.png" alt="" width="300" height="300" srcset="https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-25-59-300x300.png 300w, https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-25-59-150x150.png 150w, https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-25-59.png 331w" sizes="(max-width: 300px) 100vw, 300px" />Today, we will start a logo competition for <a href="https://events.opensuse.org/conferences/summitasia19">openSUSE.Asia Summit 2019</a>, which is going to be held in Bali, Indonesia. A logo is an essential material for the successful summit. As you have seen, the former openSUSE.Asia summits have their unique logos reflecting the communities where the summit took place. Following tradition, we have logo competition to collect great logo for this year’s summit.</p>
+<p>The competition is open now and <b>ends on 15 June 2019</b>. The organizing team will send “Geeko Mystery Box” as an appreciation for the best logo designed. This year, logo will be voted by <a href="https://en.opensuse.org/openSUSE:Asia_Organization_Committee">openSUSE.Asia committee</a>.</p>
+<p><b>Deadline:</b> 15 June 2019 UTC 13:00</p>
+<p><b>Announcement Winner:</b> 25 June 2019</p>
+<p>The Rules of the Contest are as follows:</p>
+<ul>
+<li>The logo should be licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> and allow everyone to use the logo without attribution (BY) if your work is used as the logo of openSUSE.Asia Summit 2019. Note that the attribution is going to be shown on the summit website.</li>
+<li>Design must be original and should not include any third party materials.</li>
+<li>Both monochromes and color formats are essential for submission.</li>
+<li>Submissions must be in SVG format.</li>
+<li>Design should reflect the openSUSE community in Asia.</li>
+<li>The logo should avoid the following things:
+<ul>
+<li>Brand names or trademarks of any kind.</li>
+<li>Illustrations that may consider inappropriate, offensive, hateful, tortuous, defamatory, slanderous or libelous.</li>
+<li>Sexually explicit or provocative images.</li>
+<li>Violence or weapons.</li>
+<li>Alcohol, tobacco, or drug use imagery.</li>
+<li>Discrimination based on race, gender, religion, nationality, disability, sexual orientation or age.</li>
+<li>Bigotry, racism, hatred or harm against groups or individuals</li>
+<li>Religious, political, or nationalist imagery.</li>
+</ul>
+</li>
+<li>The logo should follow “openSUSE Project Trademark Guidelines” published at <a href="https://en.opensuse.org/File:OpenSUSE_Trademark_Guidelines.pdf">https://en.opensuse.org/File:OpenSUSE_Trademark_Guidelines.pdf</a></li>
+<li>The branding guidelines will be helpful to design your logo (optional)<br />
+<a href="https://opensuse.github.io/branding-guidelines/">https://opensuse.github.io/branding-guidelines/</a></li>
+</ul>
+<p><span id="more-21799"></span>Please submit your design to <a href="mailto:opensuseasia-summit@googlegroups.com"><b>opensuseasia-summit@googlegroups.com</b></a> with the following entries:</p>
+<ul>
+<li>Subject: openSUSE.Asia Summit 2019 Logo Design &#8211; [your name]</li>
+<li>Your name and mail address to contact</li>
+<li>A document about philosophy of the design (txt or pdf)</li>
+<li>Vector file of the design with SVG format ONLY.</li>
+<li>Bitmap of design in attachment — image size: 256*256 px at least, PNG format.</li>
+<li>File size less than 512 KB.</li>
+</ul>
+<p>The openSUSE.Asia Summit Committee will decide on the logos, subject to the condition, that the logo meets all the requirements. The final decision will be made by openSUSE.Asia Summit Committee and it may not be the highest scored design.</p>
+<p>We recommend the artist to use <a href="https://inkscape.org/">Inkscape</a>, a powerful, free and open source vector graphics tool for all kinds of design.</p>
+<div id="attachment_21801" style="width: 310px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-21801" class="wp-image-21801 size-medium" src="https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-27-14-300x55.png" alt="" width="300" height="55" srcset="https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-27-14-300x55.png 300w, https://news.opensuse.org/wp-content/uploads/2019/05/Screenshot-from-2019-05-14-09-27-14.png 600w" sizes="(max-width: 300px) 100vw, 300px" /><p id="caption-attachment-21801" class="wp-caption-text">openSUSE.Asia Summit Logo 2014-2018</p></div>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/05/15/opensuse-asia-summit-2019-logo-competition/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+							</item>
+		<item>
+		<title>GNOME 3.32 Arrives in Month’s First Tumbleweed Snapshot</title>
+		<link>https://news.opensuse.org/2019/05/09/gnome-3-32-arrives-in-months-first-tumbleweed-snapshot/</link>
+				<comments>https://news.opensuse.org/2019/05/09/gnome-3-32-arrives-in-months-first-tumbleweed-snapshot/#comments</comments>
+				<pubDate>Thu, 09 May 2019 09:28:59 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Kubic]]></category>
+		<category><![CDATA[Tumbleweed]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[armv7]]></category>
+		<category><![CDATA[armv8]]></category>
+		<category><![CDATA[ceph]]></category>
+		<category><![CDATA[compiler]]></category>
+		<category><![CDATA[flatpak]]></category>
+		<category><![CDATA[ghostscript]]></category>
+		<category><![CDATA[glib]]></category>
+		<category><![CDATA[GNOME 3.32]]></category>
+		<category><![CDATA[kubic]]></category>
+		<category><![CDATA[MD RAID]]></category>
+		<category><![CDATA[MicroOS]]></category>
+		<category><![CDATA[non-integer]]></category>
+		<category><![CDATA[openblas]]></category>
+		<category><![CDATA[openSUSE Tumbleweed]]></category>
+		<category><![CDATA[orc]]></category>
+		<category><![CDATA[parser]]></category>
+		<category><![CDATA[PEP 517]]></category>
+		<category><![CDATA[power6]]></category>
+		<category><![CDATA[powerpc]]></category>
+		<category><![CDATA[python-setuptools]]></category>
+		<category><![CDATA[snapshot reviewer]]></category>
+		<category><![CDATA[Wayland]]></category>
+		<category><![CDATA[xfsprogs]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21793</guid>
+				<description><![CDATA[This month has produced a total of three openSUSE Tumbleweed snapshot thus far and GNOME 3.32.1 was made available to Tumbleweed users in snapshot 20190505. The key packages that arrive so far this month are a newer Linux Kernel, a minor update for python-setuptools and the text editor GNU Nano fixed the spell checker from [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="aligncenter size-medium" src="https://www.gnome.org/wp-content/uploads/2019/03/GNOME-Release332-graphic-940x529.jpg" width="470" height="265" /></p>
+<p>This month has produced a total of three <a href="https://www.opensuse.org/">openSUSE</a> <a href="https://en.opensuse.org/Portal:Tumbleweed">Tumbleweed</a> snapshot thus far and <a href="https://www.gnome.org/news/2019/03/gnome-3-32-released/">GNOME 3.32.1</a> was made available to Tumbleweed users in snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00061.html">20190505</a>. The key packages that arrive so far this month are a newer <a href="https://www.kernel.org/">Linux Kernel</a>, a minor update for <a href="https://pypi.org/project/setuptools/">python-setuptools</a> and the text editor <a href="https://www.nano-editor.org/">GNU Nano</a> fixed the spell checker from crashing.</p>
+<p>The latest Tumbleweed snapshot, <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00088.html">20190507</a>, which delivered nano 4.2, had a large update of changes for <a href="https://www.ghostscript.com/index.html">ghostscript 9.27</a>; the versatile processor for PostScript data extensively cleaned up the Postscript name space and will now focus on the next releases to make SAFER the default mode of operation. The Optimized inner loop Runtime Compiler, <a href="https://github.com/GStreamer/orc">orc</a> 0.4.29, added decorator command line argument to add function decorators in header files. The latest python-setuptools 41.0.1 version fixed issues with the <a href="https://www.python.org/dev/peps/pep-0517/">PEP 517</a>, which specifies a standard API for systems which build Python packages. Text editor vim 8.1.1282 was also released in the snapshot. The snapshot is currently trending at a 95 rating, according to the <a href="http://review.tumbleweed.boombatower.com/">Tumbleweed snapshot reviewer</a>.</p>
+<p><a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> 66.0.4 fixed extension certificate chain in snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00078.html">20190506</a>. There was an improvement to network status detection with Network Manager with the <a href="https://github.com/GNOME/glib">glib2</a> 2.60.2 update. The <a href="http://lionet.info/asn1c/blog/">asn1c-based parser</a> was replaced by an openssl-based PKCS parser with the kmod 26 package. The <a href="https://www.openblas.net/">openblas</a>_pthreads 0.3.6 had some changes for <a href="https://en.wikipedia.org/wiki/POWER6">POWER6</a>, <a href="https://en.wikipedia.org/wiki/PowerPC_970">PowerPC 970</a> and <a href="https://en.wikipedia.org/wiki/Comparison_of_ARMv7-A_cores">ARMv7</a> and <a href="https://en.wikichip.org/wiki/arm/armv8">ARMv8</a>. The 1.28 perl-YAML package offered a security fix and <a href="http://xfs.org">xfsprogs</a> updated to the 5.0.0 version from 4.20.0. The snapshot is currently trending stable at a 92 rating on the <a href="http://review.tumbleweed.boombatower.com/">Tumbleweed snapshot reviewer</a>.</p>
+<p>The snapshot that started out the month, snapshot <a href="https://lists.opensuse.org/opensuse-factory/2019-05/msg00061.html">20190505</a>, had a large amount of package updates. <a href="https://www.gnome.org/news/2019/03/gnome-3-32-released/">GNOME 3.32.1</a> was perhaps the most anticipated to arrive as the <a href="https://www.gnome.org/news/2019/03/gnome-3-32-released/">Taipei</a> version offered various fixes to initial loading screens, updated the featured app ID,fixed <a href="https://flatpak.org/">Flatpak</a> permissions to correctly show up for available apps and much more. The release introduced an experimental feature for Wayland desktop sessions that enables fractional scaling. Once enabled, desktops at certain resolutions can be scaled by non-integer values. The <a href="https://software.opensuse.org/package/atftp">Advanced Trivial File Transfer Protocol</a> (atftp) 0.7.2 version fixed a potential DoS bug introduced by a IPv6 patch. Compiler cache <a href="https://ccache.samba.org/releasenotes.html">ccache 3.7.1</a> fixed a temporary file leak when the depend mode is enabled and the compiler produces standard error output; it also fixed crash when the debug mode is enabled and the output file is in a non-writable directory. <a href="https://ceph.com/">Ceph</a> added the <a href="http://man7.org/linux/man-pages/man7/lvmcache.7.html">lvmcache plugin</a> and both the openSUSE <a href="https://kubic.opensuse.org/">Kubic</a> and <a href="https://en.opensuse.org/Kubic:MicroOS">MicroOS</a> installation images prevent <a href="https://en.wikipedia.org/wiki/Mdadm">MD/RAID</a> auto-assembly if linuxrc says so. The  5.0.11 <a href="https://www.kernel.org/">Linux Kernel</a> added new <a href="https://en.wikipedia.org/wiki/USB">USB</a> Link Power Management (LPM) helpers. Other noteworthy packages updated in the snapshot were libsoup 2.66.1, libstorage-ng 4.1.119, webkit2gtk3 2.24.1 and yast2 4.2.1.  The snapshot is currently trending stable at a 96 rating on the <a href="http://review.tumbleweed.boombatower.com/">Tumbleweed snapshot reviewer</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/05/09/gnome-3-32-arrives-in-months-first-tumbleweed-snapshot/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+		<item>
+		<title>openSUSE.Asia Summit 2019 Bali: Call for proposals is Open</title>
+		<link>https://news.opensuse.org/2019/05/01/opensuse-asia-summit-2019-bali-call-for-proposals-is-open/</link>
+				<comments>https://news.opensuse.org/2019/05/01/opensuse-asia-summit-2019-bali-call-for-proposals-is-open/#comments</comments>
+				<pubDate>Wed, 01 May 2019 01:00:09 +0000</pubDate>
+		<dc:creator><![CDATA[Douglas DeMaio]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Conference]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[Summit]]></category>
+		<category><![CDATA[Weekly News]]></category>
+		<category><![CDATA[applications]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[community]]></category>
+		<category><![CDATA[container orchestration]]></category>
+		<category><![CDATA[Free/Libre Open Source Software]]></category>
+		<category><![CDATA[GNOME]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[Leap]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[open build service]]></category>
+		<category><![CDATA[openQA]]></category>
+		<category><![CDATA[openSUSE.Asia Summit 2019]]></category>
+		<category><![CDATA[software]]></category>
+		<category><![CDATA[talks]]></category>
+		<category><![CDATA[Tumbleweed]]></category>
+		<category><![CDATA[virtualzation]]></category>
+		<category><![CDATA[xfce]]></category>
+		<category><![CDATA[yast]]></category>
+
+		<guid isPermaLink="false">https://news.opensuse.org/?p=21790</guid>
+				<description><![CDATA[The openSUSE.Asia Committee call for proposals for openSUSE.Asia Summit 2019 is now open. openSUSE.Asia Summit is one of the great events for openSUSE community (i.e., both contributors and users) in Asia. Those who usually communicate online can get together from all over the world, talk face to face, and have fun.  Members of the community [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignright size-medium wp-image-21752" style="margin: 10px;" src="https://news.opensuse.org/wp-content/uploads/2019/03/bali-168x300.png" alt="" width="168" height="300" />The openSUSE.Asia Committee call for proposals for <a href="https://events.opensuse.org/conferences/summitasia19">openSUSE.Asia Summit 2019</a> is now open.</p>
+<p>openSUSE.Asia Summit is one of the great events for openSUSE community (i.e., both contributors and users) in Asia. Those who usually communicate online can get together from all over the world, talk face to face, and have fun.  Members of the community will share their most recent knowledge, experiences, and learn FLOSS technologies surrounding openSUSE.</p>
+<p>Following the Asia Summit in Taipei last year, the sixth openSUSE.Asia Summit year 2019 will be at Udayana University, Bali Indonesia on October 5th and 6th, 2019. The past Asia Summits have had participants from Indonesia, China, Taiwan, Japan, South Korea, India, Nepal, and etc.</p>
+<h4>Call for proposals</h4>
+<p>The speakers are eligible to receive sponsorship from openSUSE <a href="https://en.opensuse.org/openSUSE:Travel_Support_Program">Travel Support Program</a> (TSP). Even if you live away from Bali, please consider applying for the event.</p>
+<h4>Topics</h4>
+<p>openSUSE.Asia Summit 2019 will invite talks/workshop relevant to openSUSE and other topics like Cloud, Virtualization, Container, Container Orchestration, Linux desktop environments and applications since openSUSE is a collection of various FLOSS products. The examples of the topics (not limited to) are as the following:</p>
+<ul>
+<li>openSUSE (including Leap, Tumbleweed, Open Build Services, OpenQA, YaST)</li>
+<li>openSUSE Kubic, Cloud, Virtualization, Container, and Container Orchestration</li>
+<li>Embedded and IoT</li>
+<li>Linux kernel and file system</li>
+<li>Security (Access/Integrity control, Cryptography, Vulnerability management)</li>
+<li>Desktop environments and applications (e.g. GNOME, KDE, XFCE)</li>
+<li>Office suite, graphic art, multimedia (e.g. LibreOffice, Calligra, GIMP, Inkscape)</li>
+<li>Multilingualization support (e.g. input methods, translation)</li>
+<li>Other software running on openSUSE</li>
+</ul>
+<p><span id="more-21790"></span>Please note that non-technical talks are also welcome. For example:</p>
+<ul>
+<li>Explanations of FLOSS technologies</li>
+<li>Development, Quality Assurance, Translation</li>
+<li>Tips &amp; Tricks, Experience stories (success or fail), Best practice</li>
+<li>Marketing and community management</li>
+<li>Education</li>
+</ul>
+<h4>Types of sessions</h4>
+<p>We will invite the three types of sessions as below. If you apply for TSP, long talk or workshop is strongly recommended.</p>
+<ul>
+<li>Workshop (120 min + Q&amp;A)</li>
+<li>Long talk (30 min + Q&amp;A)</li>
+<li>Short talk (15 min + Q&amp;A)</li>
+</ul>
+<p>We do not forget exciting lightning talks at this year’s summit. This year, call for lightning talks is expected to be open in July or later.</p>
+<h4>Schedule</h4>
+<ul>
+<li>The deadline of call for proposals: June 22, 2019</li>
+<li>Notification to speakers:  July 15, 2019</li>
+<li>Speakers TSP deadline: July 26, 2019</li>
+<li>openSUSE.Asia Summit 2019: October 5th and 6th, 2019.</li>
+</ul>
+<h4>How to submit your proposal</h4>
+<p>Please submit your proposal to the following website: <a href="https://events.opensuse.org/conferences/summitasia19/program/proposals/new">https://events.opensuse.org/conferences/summitasia19/program/proposals/new</a></p>
+<ul>
+<li>Your proposal must be written in English and 150–500 words long with an appropriate title.</li>
+<li>You may do your speech in the local language if you write “Speech in local language” to the Requirements field. Presentation in English is recommended, and your slides must be in English.</li>
+<li>Please run spell and grammar checkers for your proposal before submission.
+<ul>
+<li><a href="https://extensions.libreoffice.org/extensions/languagetool">https://extensions.libreoffice.org/extensions/languagetool</a></li>
+<li><a href="https://extensions.libreoffice.org/extensions/languagetool">https://www.grammarly.com/</a></li>
+</ul>
+</li>
+<li>Your biography on your profile page is also a reviewed document. Please do not forget to write your background.</li>
+<li>You must obey openSUSE Conference code of conduct:<br />
+<a href="https://en.opensuse.org/openSUSE:Conference_code_of_conduct">https://en.opensuse.org/openSUSE:Conference_code_of_conduct</a></li>
+<li>Please refer to the following URL for how to apply for travel support: <a href="https://en.opensuse.org/openSUSE:Travel_Support_Program">https://en.opensuse.org/openSUSE:Travel_Support_Program</a></li>
+</ul>
+<h4>Guide to write your proposal</h4>
+<p><b>Please write your proposal so that it is related to one or more topics</b></p>
+<p>For example, if your talk is on security or desktop, it is better that it contains how to install these applications and/or demo on openSUSE.</p>
+<p><b>Please clarify what the participants will learn from your talk.</b></p>
+<ul>
+<li>The introduction of main technology or software in your talk</li>
+<li>The main topic of your talk</li>
+</ul>
+<p><b>Only workshop: please write how to use your time and what you need.</b></p>
+<ul>
+<li>We recommend writing a simple timetable on your proposal</li>
+<li>Please write the necessary equipment (laptops, internet access) to the Requirement field</li>
+</ul>
+<p><b>Do not hesitate to contact the committee or a local community if you are not sure about writing your proposal or preparing your presentation.</b></p>
+]]></content:encoded>
+							<wfw:commentRss>https://news.opensuse.org/2019/05/01/opensuse-asia-summit-2019-bali-call-for-proposals-is-open/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+							</item>
+	</channel>
+</rss>
