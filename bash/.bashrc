@@ -63,3 +63,4 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 force_color_prompt=yes
 setxkbmap pl
+export MAN_POSIXLY_CORRECT=1

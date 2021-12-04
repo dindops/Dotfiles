@@ -1,4 +1,3 @@
-
 # Destination aliases:
 alias tex='cd $HOME/Documents/tex/'
 alias proj='cd $HOME/Documents/Projects'
@@ -10,3 +9,4 @@ alias pdf='mupdf'
 alias vi='vim -c "let g:tty='\''$(tty)'\''"'
 alias vr='vim $HOME/.vim/vimrc'
 alias bud='libreoffice $HOME/Documents/Personal/budget.ods'
+alias vim='flatpak run org.vim.Vim'
