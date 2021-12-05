@@ -21,6 +21,7 @@ function! PyInclude(fname)
 endfunction
 setlocal includeexpr=PyInclude(v:fname)  " ij <class/function>
 setlocal define=^\\s*\\<\\(def\\\|class\\)\\>  " dj <class/function>
+" }}}
 
 map <buffer> <F3> :call Flake8()<CR>
 

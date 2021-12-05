@@ -1,26 +1,20 @@
-let $RC="$HOME/.vim/vimrc"
-" Unmap the arrow keys
-ino <down> <Nop>
-ino <left> <Nop>
-ino <right> <Nop>
-ino <up> <Nop>
-no <down> <Nop>
-no <left> <Nop>
-no <right> <Nop>
-no <up> <Nop>
-
-" Bootleg fuzzy-finder options + other sets
+" Bootleg fuzzy-finder + basic settings
 set path=.,**
 set wildmenu
 set ignorecase
 set incsearch
-set encoding=utf-8
 set number
-set relativenumber 
 set backspace=indent,eol,start
-set tabstop=4  softtabstop=4   shiftwidth=4   textwidth=0   expandtab   fileformat=unix 
+set tabstop=4  softtabstop=4   shiftwidth=4   textwidth=0   expandtab   fileformat=unix
 set hidden
 set noswapfile
+set scrolloff=3
+set encoding=utf-8
+
+" Show hard tabs (Ctrl-V + Tab) and trailing whitespaces
+set list
+set listchars=tab:\⇄\ ,trail:\•
+set showbreak="↳ "
 
 " Easier movement between splits
 nnoremap <C-J> <C-W><C-J> 
@@ -34,110 +28,88 @@ map <leader>xp mz:-1r !xclip -o -sel clip<CR>`z
 noremap <leader>y "+y
 
 " Folding
-"set foldmethod=indent "for python development indent method is the best. Consider using SimplyFold plugin with that!
-set foldmethod=marker " fold are created within {{{ and }}}
+" set foldmethod=indent "for python development indent method is the best. Consider using SimplyFold
+set foldmethod=marker " folds are created within {{{ and }}}
 set foldlevel=1
 set foldlevelstart=1
 
 " Netrw settings
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
+
 map <leader>f <Esc>:30vs +Ex<CR> 
 
+" Plugins {{{
+filetype plugin indent on
+call plug#begin('~/.vim/plugged')
 
-"VUNDLE AND PLUGINS
-set  nocompatible              " this is not Vi from 1976 after all
-filetype off                  " required
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'nvie/vim-flake8'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'Yggdroot/indentLine'
+Plug 'tpope/vim-fugitive'
+Plug 'vimwiki/vimwiki'
+Plug 'itchyny/lightline.vim'
 
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+call plug#end()
+" }}}
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-flake8'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-commentary'
-Plugin 'Yggdroot/indentLine'
-Plugin 'tpope/vim-fugitive'
-Plugin 'vimwiki/vimwiki'
-Plugin 'unblevable/quick-scope'
-Plugin 'vim-airline'
-call vundle#end()            " required
-filetype plugin indent on    " required
-filetype plugin on    " required
-"to install plugin run :PluginInstall
-"to update plugin run :PluginUpdate
-
-""""Status line"""""""
+" {{{  Lightline config
 set laststatus=2
-" Airline customisation
-let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
-let g:airline_mode_map = {
-        \ '__' : '-',
-        \ 'n'  : 'N',
-        \ 'i'  : 'I',
-        \ 'R'  : 'R',
-        \ 'c'  : 'C',
-        \ 'v'  : 'V',
-        \ 'V'  : 'V',
-        \ '^V' : 'V',
-        \ 's'  : 'S',
-        \ 'S'  : 'S',
-        \ '^S' : 'S',
-        \ }
+set noshowmode
+let g:lightline = {
+      \ 'mode_map': {
+        \ 'n' : 'N',
+        \ 'i' : 'I',
+        \ 'R' : 'R',
+        \ 'v' : 'V',
+        \ 'V' : 'VL',
+        \ "\<C-v>": 'VB',
+        \ 'c' : 'C',
+        \ 's' : 'S',
+        \ 'S' : 'SL',
+        \ "\<C-s>": 'SB',
+        \ 't': 'T',
+        \ },
+      \ }
 
-"""" Colorschemes"""
-"set termguicolors  
+let g:lightline = {
+      \ 'colorscheme': 'darcula',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'FugitiveHead'
+      \ },
+      \ }
+" }}}
+
+" Colorschemes {{{
+" set termguicolors
 syntax enable
 colorscheme slate
 set cursorline
-"hi CursorLine term=bold cterm=bold guibg=darkgrey
+" hi CursorLine term=bold cterm=bold guibg=darkgrey
 hi CursorLine term=bold cterm=bold 
-hi ColorColumn ctermbg=darkred guibg=lightgrey
+hi ColorColumn ctermbg=darkgrey guibg=darkgrey
+" }}}
 
-""""Custom keybingings""""
-map <F6> :!pdflatex % <Enter> 
-map <F7> :!pandoc % -s -o '%:r.pdf' <Enter> 
+" Other keybingings {{{
 map <F8> :setlocal spell! spelllang=en_gb,pl<CR>
 map <F1> :colo slate<CR>
 map <F2> :colo koehler<CR>
-noremap <Space><Space> /<??><Enter>"_c4l
+nnoremap <Space><Space> :VimwikiToggleListItem<CR>
+noremap <Space>r :VimwikiToggleRejectedListItem<CR>
+" }}}
 
-
-"Latex mapping
-autocmd Filetype tex inoremap ;b \textbf{}<Space><??><Esc>T{i
-autocmd Filetype tex inoremap ;i \textit{}<Space><??><Esc>T{i
-autocmd Filetype tex inoremap ;un \underline{<??>}<Space><??><Esc>T{i
-autocmd FileType tex inoremap ;ct \textcite{}<Space><??><Esc>T{i
-autocmd FileType tex inoremap ;ref \ref{}<Space><??><Esc>T{i
-autocmd Filetype tex inoremap ;ul \begin{itemize}<Enter><Enter>\end{itemize}<Enter><Enter><??><Esc>3kA<Space><Space>\item<Space>
-autocmd Filetype tex inoremap ;ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><??><Esc>3kA<Space><Space>\item<Space>
-autocmd Filetype tex inoremap ;it <Space><Space>\item<Space>
-autocmd Filetype tex inoremap ;wf \begin{wrapfigure}{l}{8cm}<Enter>\begin{center}<Enter>\includegraphics[width=\linewidth,keepaspectratio]{<??>}<Enter>\caption{<??>}<Enter>\label{<??>}<Enter>\end{center}<Enter>\end{wrapfigure}<Enter>
-autocmd Filetype tex inoremap ;fi \begin{figure}[h!]<Enter>\begin{center}<Enter>\includegraphics[width=\linewidth,keepaspectratio]{<??>}<Enter>\caption{<??>}<Enter>\label{<??>}<Enter>\end{center}<Enter>\end{figure}<Enter>
-autocmd FileType tex inoremap ;sec \section{}<Enter><Enter><??><Esc>2kf}i
-autocmd Filetype tex inoremap ;fr %FRAME<Enter>\begin{frame}<Enter>\frametitle{<??>}<Enter><??><Enter><Enter><Enter>\end{frame}<Enter><Enter><Esc>9kA
-autocmd Filetype tex inoremap ;eq $$<Esc>i
-autocmd Filetype tex inoremap ;rar $\rightarrow$<Space>
-autocmd Filetype tex inoremap ;Rar $\Rightarrow$<Space>
-autocmd Filetype tex inoremap ;lar $\leftarrow$<Space>
-autocmd Filetype tex inoremap ;Lar $\Leftarrow$<Space>
-
-"PEP8 for python
-"autocmd BufWritePost *.py call Flake8()
-autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
-
-
-autocmd FileType python setlocal cc=80
-autocmd FileType tex setlocal noai nocin nosi inde=  " who needs autoindent in tex files anyway? abbrev. noautoindent, nocindent, nosmartindent, indentexpr=
-
-autocmd FileType yaml setlocal ai ts=2 sw=2 et
-"Default tabs
-"set tabstop=8  softtabstop=8   shiftwidth=8   textwidth=79   noexpandtab   fileformat=unix 
-
+" German letters {{{
+inoremap <leader>a ä
+inoremap <leader>A Ä
+inoremap <leader>b ß
+inoremap <leader>u ü
+inoremap <leader>U Ü
+inoremap <leader>o ö
+inoremap <leader>O Ö
+inoremap <leader>e €
+" }}}

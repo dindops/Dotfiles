@@ -19,3 +19,4 @@ inoremap ;lar $\leftarrow$<Space>
 inoremap ;Lar $\Leftarrow$<Space>
 " }}}
 
+map <F6> :!pdflatex % <Enter>
