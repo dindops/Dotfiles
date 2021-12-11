@@ -85,6 +85,14 @@ let g:lightline = {
       \ }
 " }}}
 
+" {{{ vimwiki config
+let g:vimwiki_list = [{'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
+let g:vimwiki_markdown_link_ext = 1  " changes vimwiki links from [text](text) to  [text](text.md)
+nnoremap <Space><Space> :VimwikiToggleListItem<CR>
+noremap <Space>r :VimwikiToggleRejectedListItem<CR>
+" }}}
+
 " Colorschemes {{{
 " set termguicolors
 syntax enable
@@ -99,8 +107,6 @@ hi ColorColumn ctermbg=darkgrey guibg=darkgrey
 map <F8> :setlocal spell! spelllang=en_gb,pl<CR>
 map <F1> :colo slate<CR>
 map <F2> :colo koehler<CR>
-nnoremap <Space><Space> :VimwikiToggleListItem<CR>
-noremap <Space>r :VimwikiToggleRejectedListItem<CR>
 " }}}
 
 " German letters {{{
