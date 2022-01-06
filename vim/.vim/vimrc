@@ -50,6 +50,8 @@ Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-fugitive'
 Plug 'vimwiki/vimwiki'
 Plug 'itchyny/lightline.vim'
+Plug 'hashivim/vim-terraform'
+
 
 call plug#end()
 " }}}

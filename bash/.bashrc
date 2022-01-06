@@ -64,3 +64,5 @@ export EDITOR="$VISUAL"
 force_color_prompt=yes
 setxkbmap pl
 export MAN_POSIXLY_CORRECT=1
+
+complete -C /usr/bin/terraform terraform
