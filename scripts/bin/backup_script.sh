@@ -3,7 +3,7 @@ USER=`whoami`
 echo "Starting backup"
 echo
 echo "Main backup"
-sudo rsync -aAXv --exclude=Videos --exclude=.cache --exclude=Music --exclude=Documents/Ebooks --exclude=Pictures --exclude=Downloads --exclude=.wallpapers /home/$USER/ /run/media/$USER/Backups/pietad/
+sudo rsync -aAXv --exclude=Videos --exclude=.cache --exclude=.mozilla --exclude=.thunderbird --exclude=.var/app --exclude=Music --exclude=Documents/Ebooks --exclude=Pictures --exclude=Downloads --exclude=.wallpapers /home/$USER/ /run/media/$USER/Backups/pietad/
 echo "Music"
 sudo rsync -aAXv --exclude=Audiobooks --exclude=Talks_And_Podcasts /home/$USER/Music/ /run/media/$USER/Backups/Media/Music/
 echo "Pictures"
