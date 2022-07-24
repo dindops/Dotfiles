@@ -7,6 +7,5 @@ alias gwiki='cd $HOME/vimwiki/'
 alias gs='cd $HOME/.vim/snippets'
 alias pdf='mupdf'
 alias vi='vim -c "let g:tty='\''$(tty)'\''"'
-alias vr='vim $HOME/.vim/vimrc'
 alias bud='libreoffice $HOME/Documents/Personal/budget.ods'
-alias vim='flatpak run org.vim.Vim'
+
