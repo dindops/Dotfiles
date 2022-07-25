@@ -10,6 +10,8 @@ set hidden
 set noswapfile
 set scrolloff=3
 set encoding=utf-8
+set splitright
+set splitbelow
 
 " Show hard tabs (Ctrl-V + Tab) and trailing whitespaces
 set list
