@@ -1,0 +1,22 @@
+#!/bin/bash
+
+case "$1" in
+    '"')  beginning='"' && end=$beginning ;;
+    "'")  beginning="'" && end=$beginning ;;
+    "(" | ")")  beginning="(" && end=")" ;;
+    "[" | "]")  beginning="[" && end="]" ;;
+    "{" | "}")  beginning="{" && end="}" ;;
+    "<" | ">")  beginning="<" && end=">" ;;
+    *) beginning="$1" && end=$beginning ;;
+esac
+
+
+# if there is any input available on stdin, direct it to the while loop
+if read -t 0; then
+    # TODO test cases - każda linia jako osobny item w liście i potem iteracja
+    echo -e "${beginning}$(cat /dev/stdin)${end}"
+else
+# for command line arguments
+    args="${@:2}"
+    echo -n "${beginning}${args}${end}"
+fi
