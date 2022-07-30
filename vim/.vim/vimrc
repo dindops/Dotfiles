@@ -41,12 +41,24 @@ let g:netrw_browse_split = 4
 
 map <leader>f <Esc>:30vs +Ex<CR> 
 
+" Surround text in visual mode
+" lowercase for separate words within line, uppercase for whole lines
+vmap _p <Esc>`>a<CR><Esc>d0`<i<CR><Esc>d0!!surround "("<CR>kJJ
+vmap _P :!surround "("<CR>
+vmap _b <Esc>`>a<CR><Esc>d0`<i<CR><Esc>d0!!surround "["<CR>kJJ
+vmap _B :!surround "["<CR>
+vmap _m <Esc>`>a<CR><Esc>d0`<i<CR><Esc>d0!!surround "{"<CR>kJJ
+vmap _M :!surround "{"<CR>
+vmap _s <Esc>`>a<CR><Esc>d0`<i<CR><Esc>d0!!surround "'"<CR>kJJ
+vmap _S :!surround "'"<CR>
+vmap _q <Esc>`>a<CR><Esc>d0`<i<CR><Esc>d0!!surround '"'<CR>kJJ
+vmap _Q :!surround '"'<CR>
+
 " Plugins {{{
 filetype plugin indent on
 call plug#begin('~/.vim/plugged')
 
 Plug 'nvie/vim-flake8'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
 Plug 'tpope/vim-fugitive'
