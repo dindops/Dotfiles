@@ -1,5 +1,5 @@
 # Prompt
-export PS1="\[$(tput bold)\]\[$(tput setaf 7)\]\w\[$(tput setaf 2)\]> \[$(tput sgr0)\]"
+export PS1='\[$(tput bold)\]\[$(tput setaf 8)\]$(__git_ps1 "(%s) ")\[$(tput setaf 7)\]\w\[$(tput setaf 2)\]> \[$(tput sgr0)\]'
 # prompt: [user@host path]$ and colours:
 # export PS1="\[$(tput bold)\]\[$(tput setaf 3)\][\[$(tput setaf 7)\]\u\[$(tput setaf 0)\]@\[$(tput setaf 0)\]\h \[$(tput setaf 4)\]\W\[$(tput setaf 3)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 
