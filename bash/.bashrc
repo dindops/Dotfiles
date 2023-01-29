@@ -61,8 +61,12 @@ export BROWSERCLI=lynx
 HISTIGNORE="$HISTIGNORE:jrnl *"
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export PATH=$PATH:$HOME/.bin
 force_color_prompt=yes
 setxkbmap pl
+setxkbmap -option caps:escape  # for Vim
 export MAN_POSIXLY_CORRECT=1
 
 complete -C /usr/bin/terraform terraform
+source $HOME/.bin/git-completion.bash
+source $HOME/.bin/git-prompt.sh
