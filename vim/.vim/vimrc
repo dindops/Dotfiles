@@ -67,6 +67,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'vimwiki/vimwiki'
 Plug 'itchyny/lightline.vim'
 Plug 'hashivim/vim-terraform'
+Plug 'morhetz/gruvbox'
+Plug 'dracula/vim'
 
 
 call plug#end()
@@ -112,9 +114,16 @@ noremap <Space>r :VimwikiToggleRejectedListItem<CR>
 " }}}
 
 " Colorschemes {{{
-" set termguicolors
+" force true color when using regular vim inside tmux:
+if !has('gui_running') && &term =~ '^\%(screen\|tmux\)'
+    let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+    let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+endif
+
+set termguicolors
+set bg=dark
 syntax enable
-colorscheme slate
+colorscheme dracula
 set cursorline
 " hi CursorLine term=bold cterm=bold guibg=darkgrey
 hi CursorLine term=bold cterm=bold 
@@ -123,7 +132,7 @@ hi ColorColumn ctermbg=darkgrey guibg=darkgrey
 
 " Other keybingings {{{
 map <F8> :setlocal spell! spelllang=en_gb,pl<CR>
-map <F1> :colo slate<CR>
-map <F2> :colo koehler<CR>
+map <F1> :colo dracula<CR>
+map <F2> :colo gruvbox<CR>
 " }}}
 
