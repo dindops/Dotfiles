@@ -8,7 +8,7 @@ set backspace=indent,eol,start
 set tabstop=4  softtabstop=4   shiftwidth=4   textwidth=0   expandtab   fileformat=unix
 set hidden
 set noswapfile
-set scrolloff=3
+set scrolloff=8
 set encoding=utf-8
 set splitright
 set splitbelow
@@ -19,14 +19,15 @@ set listchars=tab:\⇄\ ,trail:\•
 set showbreak="↳ "
 
 " Easier movement between splits
-nnoremap <C-J> <C-W><C-J> 
+nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Copy to clipboard ("+ register works only with gvim installed)
-vmap <leader>xy :!xclip -f -sel clip<CR>
-map <leader>xp mz:-1r !xclip -o -sel clip<CR>`z
+let mapleader = " "
+vnoremap <leader>xy :!xclip -f -sel clip<CR>
+noremap <leader>xp mz:-1r !xclip -o -sel clip<CR>`z
 noremap <leader>y "+y
 
 " Folding
@@ -39,7 +40,8 @@ set foldlevelstart=1
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 
-map <leader>f <Esc>:30vs +Ex<CR> 
+nnoremap <leader>f <Esc>:30vs +Ex<CR>
+nnoremap <leader>pv :Ex<CR>
 
 " Surround text in visual mode
 " lowercase for separate words within line, uppercase for whole lines
@@ -125,13 +127,3 @@ map <F1> :colo slate<CR>
 map <F2> :colo koehler<CR>
 " }}}
 
-" German letters {{{
-inoremap <leader>a ä
-inoremap <leader>A Ä
-inoremap <leader>b ß
-inoremap <leader>u ü
-inoremap <leader>U Ü
-inoremap <leader>o ö
-inoremap <leader>O Ö
-inoremap <leader>e €
-" }}}
