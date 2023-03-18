@@ -70,3 +70,6 @@ export MAN_POSIXLY_CORRECT=1
 complete -C /usr/bin/terraform terraform
 source $HOME/.bin/git-completion.bash
 source $HOME/.bin/git-prompt.sh
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
