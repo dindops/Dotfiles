@@ -6,3 +6,11 @@ function fish_greeting
 end
 starship init fish | source
 pyenv init - | source
+
+fish_vi_key_bindings
+
+# Aliases:
+alias proj='cd $HOME/Documents/Projects'
+alias wiki='vim $HOME/vimwiki/index.md'
+alias gwiki='cd $HOME/vimwiki/'
+alias bud='libreoffice $HOME/Documents/Personal/budget.ods'
