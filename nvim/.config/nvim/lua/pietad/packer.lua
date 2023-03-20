@@ -45,4 +45,11 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
 }
+  use {
+    "folke/trouble.nvim",
+    requires = "nvim-tree/nvim-web-devicons",
+    config = function()
+        require("trouble").setup {}
+    end
+}
 end)
