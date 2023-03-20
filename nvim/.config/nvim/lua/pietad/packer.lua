@@ -6,7 +6,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use('wbthomason/packer.nvim')
-  use ({ 
+  use ({
 	'dracula/vim',
   	as = 'dracula' })
   use {
@@ -19,7 +19,17 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('tpope/vim-commentary')
-  use('vimwiki/vimwiki')
+  use({'vimwiki/vimwiki',
+    config = function()
+      vim.g.vimwiki_list = {
+        {
+            syntax = 'markdown',
+            ext = '.md'
+        }
+      }
+      vim.g.vimwiki_markdown_link_ext = 1
+    end
+  })
   use('Yggdroot/indentLine')
   use('hashivim/vim-terraform')
   use('itchyny/lightline.vim')
@@ -45,11 +55,11 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
 }
-  use {
+  use({
     "folke/trouble.nvim",
     requires = "nvim-tree/nvim-web-devicons",
     config = function()
         require("trouble").setup {}
     end
-}
+    })
 end)

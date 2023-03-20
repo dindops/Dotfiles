@@ -206,6 +206,7 @@ _G.packer_plugins = {
     url = "https://github.com/hashivim/vim-terraform"
   },
   vimwiki = {
+    config = { "\27LJ\2\n{\0\0\3\0\5\0\v6\0\0\0009\0\1\0004\1\3\0005\2\3\0>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\1\0=\1\4\0K\0\1\0\30vimwiki_markdown_link_ext\1\0\2\vsyntax\rmarkdown\bext\b.md\17vimwiki_list\6g\bvim\0" },
     loaded = true,
     path = "/home/pietad/.local/share/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
@@ -213,6 +214,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: vimwiki
+time([[Config for vimwiki]], true)
+try_loadstring("\27LJ\2\n{\0\0\3\0\5\0\v6\0\0\0009\0\1\0004\1\3\0005\2\3\0>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\1\0=\1\4\0K\0\1\0\30vimwiki_markdown_link_ext\1\0\2\vsyntax\rmarkdown\bext\b.md\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
+time([[Config for vimwiki]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
