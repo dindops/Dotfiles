@@ -9,3 +9,4 @@ let g:lightline = {
       \ },
       \ }
 
+set laststatus=3
