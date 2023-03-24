@@ -6,9 +6,10 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use('wbthomason/packer.nvim')
-  use ({
-	'dracula/vim',
-  	as = 'dracula' })
+  use {"ellisonleao/gruvbox.nvim"}
+  use('Mofiqul/dracula.nvim')
+  use('tjdevries/colorbuddy.nvim')
+  use('svrana/neosolarized.nvim')
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	  -- or                            , branch = '0.1.x',
@@ -19,15 +20,10 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
   use('tpope/vim-commentary')
-  use({'vimwiki/vimwiki',
+  use({'jakewvincent/mkdnflow.nvim',
+    rocks = 'luautf8', -- Ensures optional luautf8 dependency is installed
     config = function()
-      vim.g.vimwiki_list = {
-        {
-            syntax = 'markdown',
-            ext = '.md'
-        }
-      }
-      vim.g.vimwiki_markdown_link_ext = 1
+        require('mkdnflow').setup()
     end
   })
   use('Yggdroot/indentLine')
@@ -55,11 +51,4 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
 }
-  use({
-    "folke/trouble.nvim",
-    requires = "nvim-tree/nvim-web-devicons",
-    config = function()
-        require("trouble").setup {}
-    end
-    })
 end)
