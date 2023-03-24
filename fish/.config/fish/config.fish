@@ -7,7 +7,11 @@ end
 starship init fish | source
 pyenv init - | source
 
-fish_vi_key_bindings
+fish_default_key_bindings
+
+# fzf.fish configs
+fzf_configure_bindings --directory=\cf --variables=\e\cv
+set fzf_directory_opts --bind "ctrl-o:execute(vim {} &> /dev/tty)"
 
 # Aliases:
 alias proj='cd $HOME/Documents/Projects'
