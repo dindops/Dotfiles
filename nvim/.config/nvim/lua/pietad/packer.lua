@@ -34,6 +34,12 @@ return require('packer').startup(function(use)
   use('Yggdroot/indentLine')
   use('hashivim/vim-terraform')
   use('itchyny/lightline.vim')
+  use{"folke/todo-comments.nvim",
+    event = "BufRead",
+    config = function()
+      require('todo-comments').setup()
+    end}
+	  -- requires = { 'nvim-lua/plenary.nvim' }
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
