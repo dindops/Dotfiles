@@ -39,7 +39,14 @@ return require('packer').startup(function(use)
     config = function()
       require('todo-comments').setup()
     end}
-	  -- requires = { 'nvim-lua/plenary.nvim' }
+  use{"folke/persistence.nvim",
+    event = "BufRead",
+    config = function()
+      require('persistence').setup({
+          dir = vim.fn.expand(vim.fn.stdpath "state" .. "/sessions/"),
+          options = { "buffers", "curdir", "tabpages", "winsize" }
+        })
+    end}
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
