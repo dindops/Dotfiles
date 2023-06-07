@@ -11,7 +11,7 @@ fish_default_key_bindings
 
 # fzf.fish configs
 fzf_configure_bindings --directory=\cf --variables=\e\cv
-set fzf_directory_opts --bind "ctrl-o:execute(vim {} &> /dev/tty)"
+set fzf_directory_opts --bind "ctrl-o:execute(nvim {} &> /dev/tty)"
 set fzf_fd_opts --hidden --exclude=.git
 
 # Aliases:
