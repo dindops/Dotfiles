@@ -14,6 +14,8 @@ fzf_configure_bindings --directory=\cf --variables=\e\cv
 set fzf_directory_opts --bind "ctrl-o:execute(nvim {} &> /dev/tty)"
 set fzf_fd_opts --hidden --exclude=.git
 
+direnv hook fish | source
+
 # Aliases:
 alias bud='libreoffice $HOME/Documents/Personal/budget.ods'
 alias f='nvim (fzf --preview "bat --color=always {}")'
