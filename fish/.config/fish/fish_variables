@@ -8,6 +8,7 @@ SETUVAR _fish_abbr_gg:cd\x20/home/pietad/git/
 SETUVAR _fish_abbr_gnfm:cd\x20/home/pietad/git/nfmer/
 SETUVAR _fish_abbr_gwiki:cd\x20/home/pietad/vimwiki/
 SETUVAR _fish_abbr_proj:cd\x20/home/pietad/Documents/Projects/
+SETUVAR _fish_abbr_t:tmux\x2dsessionizer
 SETUVAR _fish_abbr_v:nvim
 SETUVAR _fish_abbr_vi:/usr/bin/vim
 SETUVAR _fish_abbr_vim:nvim
