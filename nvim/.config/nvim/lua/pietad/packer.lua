@@ -33,7 +33,6 @@ return require('packer').startup(function(use)
   })
   use('Yggdroot/indentLine')
   use('hashivim/vim-terraform')
-  use('itchyny/lightline.vim')
   use{"folke/todo-comments.nvim",
     event = "BufRead",
     config = function()

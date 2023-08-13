@@ -1,5 +1,6 @@
 require("pietad.remap")
 require("pietad.set")
+require("pietad.statusline")
 require("pietad.packer")
 require("pietad.harpoon")
 require("pietad.undotree")
