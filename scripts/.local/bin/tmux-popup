@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+POPUP_SESSION_NAME="${1}_popup"
+
+case $1 in
+    "notes") COMMAND="nvim ~/vimwiki/Notes.md" ;;
+    "wiki") COMMAND="nvim ~/vimwiki/index.md" ;;
+esac
+if [ "$(tmux display-message -p -F "#{session_name}")" = $POPUP_SESSION_NAME ];then
+    tmux detach-client
+else
+    tmux display-popup -E "tmux attach -t ${POPUP_SESSION_NAME} || tmux new -s ${POPUP_SESSION_NAME} ${COMMAND}"
+fi
