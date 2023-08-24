@@ -109,6 +109,7 @@ Statusline.activate = function()
   "%#Normal# ",
   filepath(),
   filename(),
+  "%m",
   "%=",
   "%#Title#",
   lsp_stats(),
