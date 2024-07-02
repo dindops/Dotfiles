@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
 SETUVAR --export PYENV_ROOT:/home/pietad/\x2epyenv
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_gdot:cd\x20/home/pietad/\x2edotfiles
 SETUVAR _fish_abbr_gg:cd\x20/home/pietad/git/
 SETUVAR _fish_abbr_gnfm:cd\x20/home/pietad/git/nfmer/
@@ -44,4 +44,5 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/pietad/\x2elocal/bin\x1e/home/pietad/\x2ecargo/bin\x1e/home/pietad/\x2epyenv/bin
