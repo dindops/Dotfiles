@@ -25,4 +25,4 @@ vim.keymap.set("n", "<C-k>", "<C-W><C-k>")
 vim.keymap.set("n", "<C-l>", "<C-W><C-l>")
 vim.keymap.set("n", "<C-h>", "<C-W><C-h>")
 
-vim.keymap.set("x", "<F8>", ":setlocal spell! spelllang=en_gb,pl<CR>")
+vim.keymap.set("n", "<F8>", ":setlocal spell! spelllang=en_gb,pl<CR>")
