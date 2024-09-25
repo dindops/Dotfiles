@@ -17,8 +17,7 @@ require('lazy').setup({
   'tjdevries/colorbuddy.nvim',
   'svrana/neosolarized.nvim',
   {
-    'nvim-telescope/telescope.nvim', tag = '0.1.1',
-    -- or                            , branch = '0.1.x',
+    'nvim-telescope/telescope.nvim', tag = '0.1.8',
     dependencies = { {'nvim-lua/plenary.nvim'} }
   },
   {'nvim-treesitter/nvim-treesitter',
