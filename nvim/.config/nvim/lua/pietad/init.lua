@@ -1,6 +1,0 @@
-require("pietad.remap")
-require("pietad.set")
-require("pietad.statusline")
-require("pietad.lazy")
-require("pietad.harpoon")
-require("pietad.undotree")

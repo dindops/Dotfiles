@@ -1,1 +1,1 @@
-require("pietad")
+require("config")
