@@ -60,8 +60,10 @@ return {
         }
       }
       require("lspconfig").lua_ls.setup {}
-      require("lspconfig").terraform_lsp.setup {}
+      require("lspconfig").bashls.setup {}
+      require("lspconfig").terraformls.setup {}
       require("lspconfig").gopls.setup {}
+      require("lspconfig").yamlls.setup {}
     -- cpm settings
     local cmp = require('cmp')
 
