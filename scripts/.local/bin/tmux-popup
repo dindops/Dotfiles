@@ -1,5 +1,5 @@
 #!/bin/bash
-
+source _tmux_helper_functions.sh
 set -e
 
 POPUP_SESSION_NAME="${1}_popup"
@@ -9,7 +9,8 @@ case $1 in
     "wiki") COMMAND="nvim ~/vimwiki/index.md" ;;
     "vit") COMMAND="vit" ;;
 esac
-if [ "$(tmux display-message -p -F "#{session_name}")" = $POPUP_SESSION_NAME ];then
+
+if is_popup_session ;then
     tmux detach-client
 else
     tmux display-popup -E "tmux attach -t ${POPUP_SESSION_NAME} || tmux new -s ${POPUP_SESSION_NAME} ${COMMAND}"
