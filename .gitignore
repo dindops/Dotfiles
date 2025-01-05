@@ -1,6 +1,8 @@
 vim/.vim/.netrwhist
 vim/.vim/plugged/*
+vim/.vim/undodir/*
 vim/.vim/bundle/*
 tmux/.tmux/plugins/*
 !tmux/.tmux/plugins/tpm
 nvim/.config/nvim/plugin/packer_compiled.lua
+.git
