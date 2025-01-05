@@ -20,7 +20,8 @@ filepath=$(echo "$nvimline" | cut -d':' -f 3-)
 
 if ! has_session $project; then
     tmux new-session -ds $project "nvim +${line} ${filepath}"
-    # TODO: create a window within a session if the session already exists
+else
+    tmux new-window -t $project "nvim +${line} ${filepath}"
 fi
 
 switch_to $project
