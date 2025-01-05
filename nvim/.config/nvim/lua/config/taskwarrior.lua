@@ -16,7 +16,6 @@ function M.create_taskwarrior_task()
   local task_description
   local task_tag
   for _, keyword in ipairs(keywords) do
-    print(line_text)
     local start_index, end_index = string.find(line_text, keyword)
     if start_index then
       task_description = string.sub(line_text, end_index + 2)
@@ -25,7 +24,7 @@ function M.create_taskwarrior_task()
     end
   end
   task_description = task_description or line_text
-  task_tag = task_tag or "+inbox"
+  task_tag = task_tag or "+todo"
 
   local project = vim.fn.input "Enter project name: "
   local additional_tags_input = vim.fn.input "Enter additional tags separated by spaces: "
