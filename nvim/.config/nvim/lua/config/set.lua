@@ -35,3 +35,5 @@ vim.opt.listchars = {
 vim.opt.showbreak = "↳ "
 
 vim.opt.cursorline = true
+
+vim.opt.autochdir = true
