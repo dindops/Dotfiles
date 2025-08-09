@@ -5,6 +5,7 @@ return {
   build = "make",
   opts = {
     provider = "claude",
+    mode = "legacy",
     providers = {
       claude = {
         endpoint = "https://api.anthropic.com",
