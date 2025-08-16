@@ -61,9 +61,13 @@ return {
       }
       require("lspconfig").lua_ls.setup {}
       require("lspconfig").bashls.setup {}
+      require("lspconfig").fish_lsp.setup {}
       require("lspconfig").terraformls.setup {}
       require("lspconfig").gopls.setup {}
       require("lspconfig").yamlls.setup {}
+      require("lspconfig").html.setup {}
+      require("lspconfig").cssls.setup {}
+      require("lspconfig").marksman.setup {}
     -- cpm settings
     local cmp = require('cmp')
 
