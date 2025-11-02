@@ -19,8 +19,12 @@ git fetch
 LOCAL=$(git rev-parse @)
 REMOTE=$(git rev-parse @{u})
 
-if [ "$LOCAL" != "$REMOTE" ]; then
-    log_info "Updating and building Neovim..."
+if ! command_exists nvim || [ "$LOCAL" != "$REMOTE" ]; then
+    if ! command_exists nvim; then
+        log_info "Neovim not installed, building from source..."
+    else
+        log_info "Updating and building Neovim..."
+    fi
     git pull
     make CMAKE_BUILD_TYPE=RelWithDebInfo
     sudo make install

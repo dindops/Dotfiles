@@ -13,7 +13,6 @@ fi
 
 cd "$DOTFILES_DIR"
 
-# Run the main setup
 ./setup.sh
 
 echo "=== Bootstrap complete ==="

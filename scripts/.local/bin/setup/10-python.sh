@@ -35,7 +35,7 @@ done
 
 export PATH="$HOME/.local/bin:$PATH"
 
-PIPX_PACKAGES_FILE="${SCRIPT_DIR}/python.packages.list"
+PIPX_PACKAGES_FILE="${SCRIPT_DIR}/share/python.packages.list"
 if [ -f "$PIPX_PACKAGES_FILE" ]; then
     log_info "Installing/upgrading pipx packages from python.packages.list..."
     while IFS= read -r package || [ -n "$package" ]; do

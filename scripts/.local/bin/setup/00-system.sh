@@ -8,8 +8,8 @@ log_info "Setting up system packages..."
 
 sudo apt update
 
-if [ -f "${SCRIPT_DIR}/apt.packages.list" ]; then
-    mapfile -t packages < <(grep -v '^#' "${SCRIPT_DIR}/apt.packages.list" | grep -v '^$')
+if [ -f "${SCRIPT_DIR}/share/apt.packages.list" ]; then
+    mapfile -t packages < <(grep -v '^#' "${SCRIPT_DIR}/share/apt.packages.list" | grep -v '^$')
     ensure_apt_packages "${packages[@]}"
 fi
 
