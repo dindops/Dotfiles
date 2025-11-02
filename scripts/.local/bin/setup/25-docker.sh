@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd ../.. && pwd)"
-source "${SCRIPT_DIR}/scripts/.local/lib/utils.sh"
+source "${SCRIPT_DIR}/lib/utils.sh"
 
 log_info "Setting up Docker..."
 
