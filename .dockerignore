@@ -1,0 +1,36 @@
+# Git directory
+.git/
+.gitignore
+
+# Don't copy existing installations to reduce image size
+nvim/.config/nvim/lazy-lock.json
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Cache and temporary files
+**/.cache/
+**/tmp/
+**/*.log
+
+# Large binary files that get installed by scripts anyway
+**/.pyenv/
+**/.local/pipx/
+**/.cargo/
+
+# Development files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation
+*.md
+!README.md
+
+# Untracked test files
+Dockerfile.test
+apt.packages.list
+hosts/Documents/hosts2

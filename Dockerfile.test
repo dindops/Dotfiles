@@ -1,0 +1,27 @@
+FROM debian:12
+
+# Install sudo and basic dependencies, then clean up in same layer
+RUN apt-get update && \
+    apt-get install -y sudo && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Create a test user with sudo privileges
+RUN useradd -m -s /bin/bash testuser && \
+    echo "testuser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+
+# Switch to test user
+USER testuser
+WORKDIR /home/testuser
+
+# Copy dotfiles to the container
+COPY --chown=testuser:testuser . /home/testuser/.dotfiles
+
+# Set working directory to dotfiles
+WORKDIR /home/testuser/.dotfiles
+
+# Set environment variable to skip heavy installations during testing
+ENV DOCKER_TEST=1
+
+# Default command - start bash so user can run scripts manually
+CMD ["/bin/bash"]

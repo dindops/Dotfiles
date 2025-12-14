@@ -51,4 +51,8 @@ if [ -f "$PIPX_PACKAGES_FILE" ]; then
         fi
     done < "$PIPX_PACKAGES_FILE"
 fi
+
+log_info "Cleaning up pip cache..."
+pip cache purge 2>/dev/null || true
+
 log_info "Python environment setup complete"

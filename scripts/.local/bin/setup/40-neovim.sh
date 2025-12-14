@@ -28,6 +28,9 @@ if ! command_exists nvim || [ "$LOCAL" != "$REMOTE" ]; then
     git pull
     make CMAKE_BUILD_TYPE=RelWithDebInfo
     sudo make install
+
+    log_info "Cleaning up build artifacts..."
+    make clean
 else
     log_info "Neovim is up to date"
 fi

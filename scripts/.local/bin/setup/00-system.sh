@@ -15,3 +15,7 @@ fi
 
 log_info "Upgrading all system packages..."
 sudo apt upgrade -y
+
+log_info "Cleaning up apt cache..."
+sudo apt-get clean
+sudo rm -rf /var/lib/apt/lists/*
