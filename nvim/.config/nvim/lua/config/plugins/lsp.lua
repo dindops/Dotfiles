@@ -47,7 +47,7 @@ return {
         end,
       })
       -- LSP server specific configs here:
-      require("lspconfig").pylsp.setup{
+      vim.lsp.config('pylsp', {
         settings = {
           pylsp = {
             plugins = {
@@ -59,15 +59,16 @@ return {
           }
         }
       }
-      require("lspconfig").lua_ls.setup {}
-      require("lspconfig").bashls.setup {}
-      require("lspconfig").fish_lsp.setup {}
-      require("lspconfig").terraformls.setup {}
-      require("lspconfig").gopls.setup {}
-      require("lspconfig").yamlls.setup {}
-      require("lspconfig").html.setup {}
-      require("lspconfig").cssls.setup {}
-      require("lspconfig").marksman.setup {}
+    )
+      vim.lsp.enable('lua_ls')
+      vim.lsp.enable('bashls')
+      vim.lsp.enable('fish_lsp')
+      vim.lsp.enable('terraformls')
+      vim.lsp.enable('gopls')
+      vim.lsp.enable('yamlls')
+      vim.lsp.enable('html')
+      vim.lsp.enable('cssls')
+      vim.lsp.enable('marksman')
     -- cpm settings
     local cmp = require('cmp')
 
