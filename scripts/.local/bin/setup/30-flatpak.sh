@@ -11,23 +11,21 @@ if ! command_exists flatpak; then
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 fi
 
-FLATPAK_APPS=(
-    "com.spotify.Client"
-    "com.jgraph.drawio.desktop"
-    "org.videolan.VLC"
-    "org.mozilla.firefox"
-    "com.github.tchx84.Flatseal"
-    "com.discordapp.Discord"
-)
-
-for app in "${FLATPAK_APPS[@]}"; do
-    if ! flatpak list | grep -q "$app"; then
-        log_info "Installing $app..."
-        flatpak install -y flathub "$app"
-    else
-        log_info "$app already installed"
-    fi
-done
+FLATPAK_PACKAGES_FILE="${SCRIPT_DIR}/share/flatpak.packages.list"
+if [ -f "$FLATPAK_PACKAGES_FILE" ]; then
+    log_info "Installing/updating Flatpak applications from flatpak.packages.list..."
+    while IFS= read -r app || [ -n "$app" ]; do
+        [[ "$app" =~ ^#.*$ ]] && continue
+        [[ -z "$app" ]] && continue
+        app=$(echo "$app" | xargs)
+        if ! flatpak list | grep -q "$app"; then
+            log_info "Installing $app..."
+            flatpak install -y flathub "$app"
+        else
+            log_info "$app already installed"
+        fi
+    done < "$FLATPAK_PACKAGES_FILE"
+fi
 
 log_info "Updating all Flatpak applications..."
 flatpak update -y

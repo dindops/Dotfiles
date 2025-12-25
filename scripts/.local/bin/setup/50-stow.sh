@@ -13,13 +13,4 @@ fi
 
 cd "${SCRIPT_DIR}"
 
-for package in */; do
-    package=${package%/}  # Remove trailing slash
-    log_info "Stowing $package..."
-    stow --restow --adopt --target="${HOME}" "$package" || log_warn "Failed to stow $package"
-done
-
-log_info "Restoring original dotfiles from git..."
-git restore . 2>/dev/null || log_warn "Could not restore from git (might not be in a git repo)"
-
-log_info "Dotfiles stowed successfully!"
+stow --restow --adopt --target="${HOME}" *

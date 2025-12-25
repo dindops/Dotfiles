@@ -6,7 +6,6 @@ source "${SCRIPT_DIR}/lib/utils.sh"
 
 log_info "Setting up Python environment..."
 
-# Install pyenv if not present
 if ! command_exists pyenv; then
     log_info "Installing pyenv..."
     curl https://pyenv.run | bash
@@ -16,6 +15,7 @@ else
     log_info "pyenv already installed"
 fi
 
+cd $HOME/.pyenv && git pull && cd -
 LATEST_PYTHON=$(pyenv install --list | grep -E '^\s*3\.[0-9]+\.[0-9]+$' | tail -1 | xargs)
 if ! pyenv versions | grep -q "$LATEST_PYTHON"; then
     log_info "Installing Python $LATEST_PYTHON..."
@@ -26,12 +26,9 @@ else
 fi
 
 eval "$(pyenv init -)"
-for pkg in pipx virtualenv; do
-    if ! pip list | grep -q "^$pkg "; then
-        log_info "Installing $pkg..."
-        pip install --user "$pkg"
-    fi
-done
+pip install --upgrade pip
+log_info "Installing pipx and virtualenv..."
+pip install --user pipx virtualenv
 
 export PATH="$HOME/.local/bin:$PATH"
 
