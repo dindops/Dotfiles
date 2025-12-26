@@ -16,6 +16,13 @@ set fzf_fd_opts --hidden --exclude=.git
 
 direnv hook fish | source
 
+# goenv setup
+set -gx GOENV_ROOT $HOME/.goenv
+set -gx GOENV_PATH_ORDER front
+fish_add_path $GOENV_ROOT/bin
+status --is-interactive; and goenv init - | source
+
+
 # Aliases:
 alias bud='libreoffice $HOME/Documents/Personal/budget.ods'
 alias f='nvim (fzf --preview "bat --color=always {}")'
