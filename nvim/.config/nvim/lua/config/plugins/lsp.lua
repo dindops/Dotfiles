@@ -47,6 +47,7 @@ return {
         end,
       })
       -- LSP server specific configs here:
+      vim.lsp.enable('pylsp')
       vim.lsp.config('pylsp', {
         settings = {
           pylsp = {
