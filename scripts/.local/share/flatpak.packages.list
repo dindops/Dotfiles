@@ -5,3 +5,6 @@ org.mozilla.firefox
 com.github.tchx84.Flatseal
 com.discordapp.Discord
 org.kde.kdenlive
+com.makemkv.MakeMKV
+org.videolan.VLC.Plugin.makemkv
+org.videolan.VLC.Plugin.bdj
