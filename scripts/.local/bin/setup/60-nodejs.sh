@@ -25,7 +25,4 @@ NPM_VERSION=$(fish -c "npm --version" 2>/dev/null || echo "not found")
 log_info "Node.js version: $NODE_VERSION"
 log_info "npm version: $NPM_VERSION"
 
-log_info "Installing claude-cli..."
-fish -c "npm install -g @anthropic-ai/claude-code"
-
 log_info "Node.js environment setup complete!"
