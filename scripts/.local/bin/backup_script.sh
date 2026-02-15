@@ -14,7 +14,7 @@ fi
 echo "Starting backup. Target mountpoint: ${DEST}"
 echo
 echo "Main backup"
-sudo rsync -aAXv --exclude=Videos --exclude=.cache --exclude=.mozilla --exclude=.thunderbird --exclude=.var/app --exclude=Music --exclude=Documents/Ebooks --exclude=Pictures --exclude=Downloads --exclude=.wallpapers /home/$USER/ $DEST/pietad/
+sudo rsync -aAXv --exclude=Videos --exclude=.cache --exclude=.mozilla --exclude=.thunderbird --exclude=.local/share --exclude=.local/pipx --exclude=.pyenv --exclude=.goenv --exclude=go --exclude=go --exclude=git --exclude=.var/app --exclude=.claude* --exclude=Music --exclude=Documents/Ebooks --exclude=Pictures --exclude=Downloads --exclude=.wallpapers /home/$USER/ $DEST/pietad/
 echo "Music"
 sudo rsync -aAXv --exclude=Audiobooks --exclude=Talks_And_Podcasts /home/$USER/Music/ $DEST/Media/Music/
 echo "Pictures"
