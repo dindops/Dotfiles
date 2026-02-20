@@ -37,3 +37,6 @@ instead, as it might be more efficient for this use case. What do you think?"
 **Good (direct):**
 "Don't use a global counter here. Use asyncio.Semaphore - it's built for exactly
 this and handles edge cases your approach misses (race conditions on counter increment)."
+
+# CODING PREFERENCES
+- Don't write comments that explain what the code does. Only write comments that why such approach has been chosen, if it's not obvious.
