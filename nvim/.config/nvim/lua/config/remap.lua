@@ -24,3 +24,9 @@ vim.keymap.set("n", "<C-l>", "<C-W><C-l>")
 vim.keymap.set("n", "<C-h>", "<C-W><C-h>")
 
 vim.keymap.set("n", "<F8>", ":setlocal spell! spelllang=en_gb,pl<CR>")
+
+-- LSP diagnostic navigation
+vim.keymap.set("n", "]e", "<cmd>lua vim.diagnostic.goto_next({severity = vim.diagnostic.severity.ERROR})<cr>")
+vim.keymap.set("n", "[e", "<cmd>lua vim.diagnostic.goto_prev({severity = vim.diagnostic.severity.ERROR})<cr>")
+vim.keymap.set("n", "]w", "<cmd>lua vim.diagnostic.goto_next({severity = vim.diagnostic.severity.WARN})<cr>")
+vim.keymap.set("n", "[w", "<cmd>lua vim.diagnostic.goto_prev({severity = vim.diagnostic.severity.WARN})<cr>")
