@@ -1,27 +1,21 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
 function fish_greeting
     fortune -a
 end
-starship init fish | source
-pyenv init - | source
 
-fish_default_key_bindings
+if status is-interactive
+    starship init fish | source
+    pyenv init - fish | source
+    goenv init - fish | source
 
-# fzf.fish configs
-fzf_configure_bindings --directory=\cf --variables=\e\cv
-set fzf_directory_opts --bind "ctrl-o:execute(nvim {} &> /dev/tty)"
-set fzf_fd_opts --hidden --exclude=.git
+    fish_default_key_bindings
 
-direnv hook fish | source
+    # fzf.fish configs
+    fzf_configure_bindings --directory=\cf --variables=\e\cv
+    set fzf_directory_opts --bind "ctrl-o:execute(nvim {} &> /dev/tty)"
+    set fzf_fd_opts --hidden --exclude=.git
 
-# goenv setup
-set -gx GOENV_ROOT $HOME/.goenv
-set -gx GOENV_PATH_ORDER front
-fish_add_path $GOENV_ROOT/bin
-status --is-interactive; and goenv init - | source
-
+    direnv hook fish | source
+end
 
 # Aliases:
 alias bud='libreoffice $HOME/Documents/Personal/budget.ods'

@@ -1,6 +1,8 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:nvim
+SETUVAR --export GOENV_PATH_ORDER:front
+SETUVAR --export GOENV_ROOT:/home/pietad/\x2egoenv
 SETUVAR --export PYENV_ROOT:/home/pietad/\x2epyenv
 SETUVAR __fish_initialized:3800
 SETUVAR _fish_abbr_gco:git\x20checkout
