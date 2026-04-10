@@ -2,3 +2,4 @@ poetry
 ffmpeg-normalize
 black
 mypy
+tldr
