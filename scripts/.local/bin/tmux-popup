@@ -8,6 +8,7 @@ case $1 in
     "notes") COMMAND="nvim ~/vimwiki/Notes.md" ;;
     "wiki") COMMAND="nvim ~/vimwiki/index.md" ;;
     "vit") COMMAND="vit" ;;
+    "vp") COMMAND="fish -c vp" ;;
 esac
 
 if is_popup_session ;then
