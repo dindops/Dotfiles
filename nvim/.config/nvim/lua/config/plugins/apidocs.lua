@@ -10,5 +10,6 @@ return {
   end,
   keys = {
     { '<leader>sad', '<cmd>ApidocsOpen<cr>', desc = 'Search Api Doc' },
+    { '<leader>gad', '<cmd>ApidocsSearch<cr>', desc = 'Search Api Doc' },
   },
 }
