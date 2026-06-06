@@ -12,7 +12,6 @@ xclip
 wmctrl
 python3-pip
 python3-venv
-golang-go
 luarocks
 arandr
 fonts-powerline
@@ -29,7 +28,6 @@ tk
 liblzma-dev
 fortune
 cargo
-npm
 nmap
 ipcalc
 kitty
