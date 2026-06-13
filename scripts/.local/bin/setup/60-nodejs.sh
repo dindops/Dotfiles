@@ -25,4 +25,14 @@ NPM_VERSION=$(fish -c "npm --version" 2>/dev/null || echo "not found")
 log_info "Node.js version: $NODE_VERSION"
 log_info "npm version: $NPM_VERSION"
 
+NPM_PACKAGES_LIST="${SCRIPT_DIR}/share/npm.packages.list"
+if [[ -f "$NPM_PACKAGES_LIST" ]]; then
+    log_info "Installing global npm packages..."
+    while IFS= read -r package || [[ -n "$package" ]]; do
+        [[ -z "$package" || "$package" == \#* ]] && continue
+        log_info "Installing npm package: $package"
+        fish -c "npm install -g $package"
+    done < "$NPM_PACKAGES_LIST"
+fi
+
 log_info "Node.js environment setup complete!"
