@@ -1,0 +1,47 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  },
+  "effortLevel": "high",
+  "tui": "fullscreen",
+  "model": "sonnet",
+  "sandbox": {
+    "enabled": true,
+    "allowUnsandboxedCommands": false,
+    "network": {
+      "allowedDomains": [
+        "docs.aws.amazon.com",
+        "github.com",
+        "gitlab.com",
+        "devdocs.io",
+        "pkg.go.dev",
+        "go.dev",
+        "docs.anthropic.com",
+        "docs.claude.com"
+      ]
+    }
+  },
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "WebFetch(domain:docs.aws.amazon.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:gitlab.com)",
+      "WebFetch(domain:devdocs.io)",
+      "WebFetch(domain:pkg.go.dev)",
+      "WebFetch(domain:go.dev)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:docs.claude.com)"
+    ],
+    "ask": [
+      "Bash(make*)"
+    ],
+    "deny": [
+      "Bash(terraform apply*)",
+      "Bash(terraform destroy*)",
+      "Bash(git commit*)",
+      "Bash(git push*)"
+    ]
+  }
+}
